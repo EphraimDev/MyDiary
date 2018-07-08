@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+}
+
+header, nav {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    overflow: hidden;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    margin-left: 350px;
+    font-family: "Great Vibes", cursive
+    
+}
+
+ul.topnav li.topnav-right {
+    list-style: none;
+    float: right;
+    font-family: 'Trocchi', serif
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    color: white;
+}
+
+ul.topnav li a:hover {
+    background-color: skyblue;
+}
+
+ul.topnav li.dropdown-icon {
+    display: none;
+}
+
+/* For forms */
+
+.main {
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-box {
+    padding: 10px 25px 20px 25px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.inp {
+    font-size: 30px;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px #444;
+}
+
+.inp:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #43a286;
+    color: black;
+    font-weight: bold;
+}
+
+.inp-row {
+    margin: 5px 0 5px 0;
+}
+
+.sub-btn {
+    text-align: center;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+}
+
+.sub-btn:focus {
+    outline: none;
+    color: yellowgreen;
+}
+
+.btn {
+    margin-left: 10%;
+    font-size: 25px;
+    color: black
+}
+
+.sign-btn {
+    width: 100%;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    margin-left: 15%;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    background-color: #dcdcdc;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Great Vibes", cursive
+    }
+
+
+/* On smaller screens */
+
+@media screen and (max-width: 400px) {
+    header {
+        margin: 0;
+}
+
+ul.topnav li{
+    margin-left: 50px;
+    font-size: 20px;
+}
+    
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdown-icon{
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdown-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .main {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .form-box {
+        width: 100%;
+        border: none;
+    }
+
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .inp {
+        font-size: 25px;
+        width: 100%;
+        height: 60px;
+        margin: 10px 0 10px 0px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px #444;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+
+    .sub-btn {
+        width: 50%;
+        height: 8%;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .sign-btn {
+        width: 100%;
+        font-size: 25px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 600px) and (min-width: 401px) {
+    header {
+        margin: 0;
+}
+
+ul.topnav li{
+    margin-left: 120px;
+    font-size: 22px;
+}
+    
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdown-icon{
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdown-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .main {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .form-box {
+        width: 100%;
+        border: none;
+    }
+
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .inp {
+        font-size: 27px;
+        width: 100%;
+        height: 80px;
+        margin: 10px 0 10px 0;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px #444;
+    }
+
+    .btn {
+        font-size: 27px;
+    }
+
+    .sub-btn {
+        width: 50%;
+        height: 60px;
+        margin: 10px;
+        margin-left: 40px;
+        font-size: 27px;
+    }
+
+    .sign-btn {
+        font-size: 25px;
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+    header {
+        margin: 0;
+}
+
+ul.topnav li{
+    margin-left: 200px;
+    font-size: 40px;
+}
+    
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdown-icon{
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdown-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .main {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .form-box {
+        width: 100%;
+        border: none;
+    }
+
+    .header {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .inp {
+        font-size: 45px;
+        width: 100%;
+        height: 12%;
+        margin: 10px 0 10px 0;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px #444;
+    }
+
+    .btn {
+        font-size: 45px;
+        margin-left: 0;
+    }
+
+    .sub-btn {
+        width: 40%;
+        height: 10%;
+        margin: 10px;
+        margin-left: 40px;
+        font-size: 45px;
+    }
+
+    .sign-btn {
+        font-size: 45px;
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) and (min-width: 901px) {
+    header {
+        margin: 0;
+}
+
+ul.topnav li{
+    margin-left: 260px;
+    font-size: 60px;
+}
+    
+   
+    .main {
+        width: 90%;
+    }
+
+    .form-box {
+        width: 100%;
+        border: none;
+    }
+
+    .header {
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .inp {
+        font-size: 75px;
+        width: 100%;
+        height: 12%;
+        margin: 10px 0 30px 0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 2px 1px #444;
+    }
+
+    .btn {
+        font-size: 70px;
+        margin-left: 10%;
+    }
+
+    .sub-btn {
+        width: 60%;
+        height: 11%;
+        margin: 20px;
+        margin-left: 15%;
+        font-size: 70px;
+    }
+
+    .sign-btn {
+        font-size: 60px;
+        margin-left: 0;
+    }
+    
+}
