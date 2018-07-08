@@ -95,6 +95,11 @@ ul.topnav li.dropdown-icon {
     border-radius: 20px;
 }
 
+.main .form-box p {
+    font-size: 30px;
+    text-align: center
+}
+
 .inp {
     font-size: 30px;
     width: 90%;
@@ -227,6 +232,10 @@ ul.topnav li{
         font-weight: bold;
     }
 
+    .main .form-box p {
+        font-size: 25px;
+    }
+
     .inp {
         font-size: 25px;
         width: 100%;
@@ -316,6 +325,10 @@ ul.topnav li{
         font-weight: bold;
     }
 
+    .main .form-box p {
+        font-size: 27px;
+    }
+
     .inp {
         font-size: 27px;
         width: 100%;
@@ -399,6 +412,10 @@ ul.topnav li{
         font-weight: bold;
     }
 
+    .main .form-box p {
+        font-size: 45px;
+    }
+
     .inp {
         font-size: 45px;
         width: 100%;
@@ -452,6 +469,10 @@ ul.topnav li{
     .header {
         font-size: 80px;
         font-weight: bold;
+    }
+
+    .main .form-box p {
+        font-size: 75px;
     }
 
     .inp {
