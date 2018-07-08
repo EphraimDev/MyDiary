@@ -43,8 +43,8 @@ nav ul {
 ul.topnav li {
     list-style: none;
     float: left;
-    font-size: 20px;
-    margin-left: 350px;
+    font-size: 30px;
+    margin-left: 450px;
     font-family: "Great Vibes", cursive
     
 }
@@ -75,9 +75,10 @@ ul.topnav li.dropdown-icon {
 /* For forms */
 
 .main {
-    width: 600px;
+    width: 60%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .header {
@@ -123,11 +124,11 @@ ul.topnav li.dropdown-icon {
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     margin: 5px;
-    margin-left: 40px;
+    margin-left: 10%;
     margin-bottom: 20px;
     background-color: skyblue;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .sub-btn:focus {
@@ -136,14 +137,14 @@ ul.topnav li.dropdown-icon {
 }
 
 .btn {
-    margin-left: 10%;
-    font-size: 25px;
+    margin-left: 8%;
+    font-size: 30px;
     color: black
 }
 
 .sign-btn {
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     color: black;
     border: none;
@@ -211,6 +212,7 @@ ul.topnav li{
         width: 100%;
         margin: auto;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .form-box {
@@ -299,7 +301,7 @@ ul.topnav li{
 
     .main {
         width: 100%;
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
     .form-box {
