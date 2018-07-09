@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Edit Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="nav-bar">
+                <li><a href="index.html">MyDiary</a></li>
+                <li class="topnav-right"><a href="home.html">Sign Out</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <div class="main">
+        <form action="#" method="post" class="form-box">
+            <h1 class="header">Edit My Profile</h1><hr>
+            <input class="inp" type="tel" name="phone number" placeholder="Phone Number">
+            <input class="inp" type="text" name="country" placeholder="Country">
+            <input class="inp" type="text" name="profession" placeholder="Profession">
+            <input class="inp" type="text" name="about me" placeholder="About Me">
+            <label class="picture">Set daily reminder: </label><input class="reminder" type="time" name="reminder" placeholder="Reminder"><br>
+            <label class="picture">Set profile picture: </label><input class="inp-pic" type="file" name="profile picture"><br>
+            <input type="button" class="sub-btn-profile" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
+            <input type="button" class="sub-btn-profile" name="submit" value="Cancel" onclick="window.open('profilePage.html', target = '_self')"><br>
+        </form>
+    </div>
+
+    <footer class="footer">
+		<div>
+		<p>Copyright MyDiary 2018</p>
+		</div>
+		</footer>
+
+    <script>
+        function dropdownMenu() {
+            let x = document.getElementById("nav-bar");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="nav-bar">
+                <li><a href="index.html">MyDiary</a></li>
+                <li class="topnav-right"><a href="login.html">Sign In</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <div class="main">
+        <form action="#" method="post" class="form-box">
+            <h1 class="header">Welcome to MyDiary! <br> Fill in your details to create your account</h1><hr>
+            <input class="inp" type="text" name="name" placeholder="Enter First Name" required>
+            <input class="inp" type="text" name="name" placeholder="Enter Last Name" required>
+            <input class="inp" type="email" name="email" placeholder="Enter Email" required><br>
+            <input class="inp" type="password" name="password" placeholder="Enter Password" required> <br>
+            <input class="inp" type="password" name="password" placeholder="Confirm Password" required> <br>
+            <input type="button" class="sub-btn" name="submit" value="Register" onclick="window.open('profilePage.html', target = '_self')"><br> 
+            <a class="sign-btn" href="login.html">Have an account? Click here</a>
+        </form>
+    </div>
+
+    <footer class="footer">
+		<div>
+		<p>Copyright MyDiary 2018</p>
+		</div>
+		</footer>
+
+    <script>
+        function dropdownMenu() {
+            let x = document.getElementById("nav-bar");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
