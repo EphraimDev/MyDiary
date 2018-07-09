@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diary Entry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="nav-bar">
+                <li><a href="home.html">MyDiary</a></li>
+                <li class="topnav-right"><a href="index.html">Sign Out</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="main-entry">
+            <div class="card">
+                <h4>Wednesday, 7th July 2018</h4><hr>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <input type="button" class="view-entry-btn" name="submit" value="Modify" onclick="window.open('editEntry.html', target = '_self')">
+            <input type="button" class="view-entry-btn" name="submit" value="Delete" onclick="window.open('profilePage.html', target = '_self')">
+        </div>
+
+        <div class="back-view-entry"><a class="back-btn" href="profilePage.html">&larr; Go back to profile page</a></div>
+
+    <footer class="footer">
+		<div>
+		<p>Copyright MyDiary 2018</p>
+		</div>
+		</footer>
+
+    <script>
+        function dropdownMenu() {
+            let x = document.getElementById("nav-bar");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
