@@ -4,3 +4,6 @@ fabric8-analytics.log
 coverage/
 package-lock.json
 .coveralls.yml
+alternative/
+alternative-tmp/
+out/
