@@ -1,0 +1,1947 @@
+.main {
+    width: 40%;
+    margin: 7% 30%;
+    height: 86%;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%
+}
+
+.form-box {
+    padding: 0;
+    width: 100%;
+    border: 1px solid deepskyblue;
+    border-radius: 1px;
+}
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+.main .form-box .form {
+    width: 90%;
+    float: left;
+    margin:  0 5%
+}
+
+span {
+    display: block;
+    margin: 0 0 3px 5%;
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+
+.inp {
+    font-size: 1em;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    box-shadow: 0 0 2px 1px skyblue;
+}
+
+.main .form-box .picture {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+    margin: 2% 4%;
+    width: 96%
+}
+
+.main .form-box .reminder {
+    font-size: 1.2em;
+    height: 5%;
+    width: 40%;
+    cursor: pointer;
+}
+
+.main .form-box .inp-pic {
+    font-size: 1em;
+    height: 5%;
+    width: 60%;
+    margin: 0;
+    padding: 0.1rem 0.2rem;
+}
+
+.inp:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px deepskyblue;
+    color: black;
+}
+
+.sub-btn-profile {
+    text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        background-color: skyblue;
+        color: white;
+        font-size: 1em;
+        font-weight: bold
+}
+
+.sub-btn-profile:hover {
+    background-color: deepskyblue
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .main {
+        width: 90%;
+        margin: 17% 5%;
+        height: 60%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin-top: 2%;
+        margin-bottom: 2%
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.2em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .reminder {
+        font-size: 1em;
+        height: 8%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 15px;
+        height: 5%;
+        width: 90%;
+        margin: 0;
+        margin-left: 2%;
+        padding: 0.2rem 0.4rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+}
+
+  /* iPhone 4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 15% 5% 10% 5%;
+        height: 90%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin: 5% 0
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.5em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1.4em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1.4em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .picture .reminder {
+        font-size: 1em;
+        height: 8%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 1em;
+        height: 5%;
+        width: 100%;
+        margin: 0;
+        margin-left: 2%;
+        padding: 0.2rem 0.4rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 35%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.2em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+  }
+
+  /* iPhone 5 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 5 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6 (landscape) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6 (portrait) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 15% 5%;
+        height: 90%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin: 2% 0
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.5em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1.4em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1.5em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .picture .reminder {
+        font-size: 1.2em;
+        height: 6%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 0.8em;
+        height: 5%;
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+        padding: 0.1rem 0.2rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 35%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.2em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+  }
+  
+  /* iPhone 6+ (landscape) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6+ (portrait) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S3 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 10% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S3 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 15% 5%;
+        height: 100%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin: 2% 0
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.2em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1.2em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1.5em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .picture .reminder {
+        font-size: 1.2em;
+        height: 6%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 0.8em;
+        height: 5%;
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+        padding: 0.1rem 0.2rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 35%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.2em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+  }
+  
+  /* Samsung Galaxy S4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .main {
+        width: 90%;
+        margin: 20% 5% 0 5%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 20px;
+        margin-top: 4%;
+        text-align: center
+    }
+    
+    hr {
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+    
+    .main .form-box label {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 18px;
+        color: black
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 18px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .sign-btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S5 (landscape) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .main {
+        width: 90%;
+        margin: 17% 5%;
+        height: 60%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin-top: 2%;
+        margin-bottom: 2%
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.2em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .reminder {
+        font-size: 1em;
+        height: 8%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 15px;
+        height: 5%;
+        width: 90%;
+        margin: 0;
+        margin-left: 2%;
+        padding: 0.2rem 0.4rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+  }
+  
+  /* Samsung Galaxy S5 (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .main {
+        width: 90%;
+        margin: 17% 5%;
+        height: 60%;
+    }
+    
+    .header {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 2%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0
+    }
+    
+    hr {
+        margin-top: 2%;
+        margin-bottom: 2%
+    }
+    .main .form-box .form {
+        width: 96%;
+        float: left;
+        margin:  0;
+        margin-left: 2%;
+        margin-right: 2% 
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 5%;
+        font-size: 1.2em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1em;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 0.3rem 0.6rem;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .main .form-box .picture {
+        font-size: 1.2em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .reminder {
+        font-size: 1em;
+        height: 8%;
+        width: 40%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 1em;
+        height: 8%;
+        width: 90%;
+        margin: 0;
+        margin-left: 2%;
+        padding: 0.2rem 0.4rem;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 4% 5%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.2em;
+    }
+    
+    .sub-btn:focus {
+        outline: none;
+        color: deepskyblue;
+    }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .main {
+        width: 70%;
+        margin: 10% 15% 0 15%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0 
+    }
+    
+    .main .form-box label {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 40px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 40px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .sign-btn {
+        font-size: 35px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .main {
+        width: 70%;
+        margin: 10% 15% 0 15%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0 
+    }
+    
+    .main .form-box label {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 40px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 40px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .sign-btn {
+        font-size: 35px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .main {
+        width: 70%;
+        margin: 10% 15% 0 15%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0 
+    }
+    
+    .main .form-box label {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 40px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 40px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .sign-btn {
+        font-size: 35px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPad 3 (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+        width: 70%;
+        margin: 10% 15% 0 15%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0 
+    }
+    
+    .main .form-box label {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 40px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 40px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .sign-btn {
+        font-size: 35px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPad 3 (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+        width: 60%;
+        margin: 10% 20%;
+        height: 90%;
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 2em;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0 
+    }
+    
+    .main .form-box .form {
+        width: 90%;
+        float: left;
+        margin:  0;
+        margin-left: 5%;
+    }
+    
+    span {
+        display: block;
+        margin: 0 0 3px 0%;
+        font-size: 1em; 
+        font-weight: bold;
+    }
+    
+    .inp {
+        font-size: 1em;
+        width: 96%;
+        padding: 10px;
+        margin: 2% 2%;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+
+    .main .form-box .picture {
+        font-size: 2.5em;
+        font-weight: bold;
+        float: left;
+        margin: 2% 2%;
+        width: 96%
+    }
+    
+    .main .form-box .reminder {
+        font-size: 1.4em;
+        height: 5%;
+        width: 70%;
+        margin-left: 5%;
+        cursor: pointer;
+    }
+    
+    .main .form-box .inp-pic {
+        font-size: 0.8em;
+        height: 5%;
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+        padding: 0.1rem 0.2rem;
+        cursor: pointer;
+    }    
+    
+    .sub-btn-profile {
+        width: 30%;
+        margin: 5px;
+        margin-left: 10%;
+        margin-top: 20px;
+        font-size: 1.8em;
+        cursor: pointer;
+    }
+    
+    .sub-btn-profile:hover {
+        background-color: deepskyblue
+    }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    .main {
+        width: 40%;
+        margin: 5% 30%;
+        height: 90%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 30px;
+        margin-top: 2%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 2% 0;
+    }
+
+    .main .form-box .form {
+    width: 90%;
+    float: left;
+    margin:  0 5%
+}
+
+span {
+    display: block;
+    margin: 0 0 3px 5%;
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+
+.inp {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    box-shadow: 0 0 2px 1px skyblue;
+}
+
+.main .form-box .picture {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+    margin: 3% 4%;
+    width: 94%
+}
+
+.main .form-box .reminder {
+    font-size: 1em;
+    height: 5%;
+    width: 40%;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem
+}
+
+.main .form-box .inp-pic {
+    font-size: 1em;
+    height: 5%;
+    width: 65%;
+    margin: 0;
+    padding: 0.0rem 0.6rem;
+    cursor: pointer;
+}
+
+.inp:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px deepskyblue;
+    color: black;
+}
+    
+.sub-btn-profile {
+    width: 30%;
+    margin: 5px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sub-btn-profile:hover {
+    background-color: deepskyblue
+}
+  }
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    .main {
+        width: 50%;
+        margin: 5% 25% 0 25%
+    }
+    
+    .form-box {
+        padding: 0;
+        width: 100%;
+        border: 1px solid deepskyblue;
+    }
+
+    .header {
+        font-size: 60px;
+        margin-top: 5%;
+        text-align: center
+    }
+    
+    hr {
+        margin: 5% 0;
+        color: deepskyblue 
+    }
+    
+    .main .form-box label {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 7%;
+    }
+    
+    .inp {
+        font-size: 50px;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 2px 10px 15px;
+        border: none;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 1px skyblue;
+    }
+    
+    .btn {
+        margin-left: 8%;
+        font-size: 50px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: deepskyblue;
+    }
+    
+    .sub-btn {
+        text-align: center;
+        width: 50%;
+        border: none;
+        cursor: pointer;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        margin: 6% 25%;
+        font-size: 40px;
+        background-color: skyblue;
+    }
+
+    .sub-btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .sign-btn {
+        font-size: 50px;
+        margin: 5px;
+        padding: 5px;
+        color: black
+    }
+
+    .sign-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Unmarked ----------- */
+
+ 

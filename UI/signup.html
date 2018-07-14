@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/signup.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="nav-bar">
+                <li><a href="index.html">MyDiary</a></li>
+                <li class="topnav-right"><a href="login.html">Sign In</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <div class="main">
+        <form action="profilePage.html" method="GET" class="form-box">
+            <h1 class="header">Create your account</h1><hr>
+            <label class="form" for="name"><span>First Name</span>
+            <input class="inp" type="text" name="name" pattern="[A-Za-z]{2,}" required/>
+        </label>
+            <label class="form" for="name"><span>Last Name</span>
+            <input class="inp" type="text" name="name" pattern="[A-Za-z]{2,}" required/>
+        </label>
+        <label class="form" for="country"><span>Country</span>
+            <input class="inp" type="text" name="country" pattern="[A-Za-z]{2,}" required/>
+        </label>
+            <label class="form" for="email"><span>Email</span>
+            <input class="inp" type="email" name="email" required/>
+        </label>
+            <label class="form" for="password"><span>Password</span>
+            <input class="inp" type="password" name="password" required/>
+        </label>
+            <label class="form" for="password"><span>Confirm Password</span>
+            <input class="inp" type="password" name="password" required> <br>
+        </label>
+            <label class="picture">Set daily reminder: <input class="reminder" type="time" name="reminder"></label>
+            <label class="picture">Set profile picture: <input class="inp-pic" type="file" name="profile picture"></label>
+            <input type="submit" class="sub-btn" name="submit" value="Register"><br>
+            <a class="sign-btn" href="login.html">Have an account? Click here</a>
+        </form>
+    </div>
+
+    <footer class="footer">
+		<div>
+		<p>Copyright MyDiary 2018</p>
+		</div>
+		</footer>
+
+    <script>
+        function dropdownMenu() {
+            let x = document.getElementById("nav-bar");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
