@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Modify Diary Entry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="nav-bar">
+                <li><a href="home.html">MyDiary</a></li>
+                <li class="topnav-right"><a href="index.html">Sign Out</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="profile">
+            <div class="avatar"><input type="image" class="profile-img" src="./img/profile-pic.jpg"></div>
+        </div>
+
+        <div class="add-entry">
+            <h4>Make changes to your diary entry</h4>
+            <textarea name="Add entry" cols="40" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</textarea>
+            <input type="button" class="view-entry-btn" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
+        <input type="button" class="view-entry-btn" name="submit" value="Reset" onclick="window.open('editEntry.html', target = '_self')">
+        </div>
+        <div class="back"><a class="back-btn" href="profilePage.html">&larr; Go back to profile page</a></div>
+
+    <footer class="footer">
+		<div>
+		<p>Copyright MyDiary 2018</p>
+		</div>
+		</footer>
+
+    <script>
+        function dropdownMenu() {
+            let x = document.getElementById("nav-bar");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
