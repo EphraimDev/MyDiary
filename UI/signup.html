@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,6 +6,7 @@
     <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/signup.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -21,14 +22,29 @@
         </header>
 
     <div class="main">
-        <form action="#" method="post" class="form-box">
-            <h1 class="header">Welcome to MyDiary! <br> Fill in your details to create your account</h1><hr>
-            <input class="inp" type="text" name="name" placeholder="Enter First Name" required>
-            <input class="inp" type="text" name="name" placeholder="Enter Last Name" required>
-            <input class="inp" type="email" name="email" placeholder="Enter Email" required><br>
-            <input class="inp" type="password" name="password" placeholder="Enter Password" required> <br>
-            <input class="inp" type="password" name="password" placeholder="Confirm Password" required> <br>
-            <input type="button" class="sub-btn" name="submit" value="Register" onclick="window.open('profilePage.html', target = '_self')"><br> 
+        <form action="profilePage.html" method="GET" class="form-box">
+            <h1 class="header">Create your account</h1><hr>
+            <label class="form" for="name"><span>First Name</span>
+            <input class="inp" type="text" name="name" pattern="[A-Za-z]{2,}" required/>
+        </label>
+            <label class="form" for="name"><span>Last Name</span>
+            <input class="inp" type="text" name="name" pattern="[A-Za-z]{2,}" required/>
+        </label>
+        <label class="form" for="country"><span>Country</span>
+            <input class="inp" type="text" name="country" pattern="[A-Za-z]{2,}" required/>
+        </label>
+            <label class="form" for="email"><span>Email</span>
+            <input class="inp" type="email" name="email" required/>
+        </label>
+            <label class="form" for="password"><span>Password</span>
+            <input class="inp" type="password" name="password" required/>
+        </label>
+            <label class="form" for="password"><span>Confirm Password</span>
+            <input class="inp" type="password" name="password" required> <br>
+        </label>
+            <label class="picture">Set daily reminder: <input class="reminder" type="time" name="reminder"></label>
+            <label class="picture">Set profile picture: <input class="inp-pic" type="file" name="profile picture"></label>
+            <input type="submit" class="sub-btn" name="submit" value="Register"><br>
             <a class="sign-btn" href="login.html">Have an account? Click here</a>
         </form>
     </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,6 +6,7 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/login.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -21,13 +22,18 @@
         </header>
 
     <div class="main">
-        <form action="#" method="post" class="form-box">
+        <form action="profilePage.html" method="GET" class="form-box">
             <h1 class="header">Sign in to your account</h1><hr>
-            <input class="inp" type="email" name="email" placeholder="Enter Email" required><br>
-            <input class="inp" type="password" name="password" placeholder="Enter Password" required> <br>
-            <a class="btn" href="forgotPassword.html">Forgot password?</a>
-            <input type="button" class="sub-btn" name="submit" value="Sign In" onclick="window.open('profilePage.html', target = '_self')"><br> 
-            <a class="sign-btn" href="signup.html">Don't have an account? Click here</a>
+            <label for="email" class="form"><span>Email</span>
+            <input class="inp" id="email" type="email" name="email" placeholder="" required><br>
+        </label>
+            <label for="password" class="form"><span>Password</span>
+                <input class="inp" id="password" type="password" name="password" placeholder="" required> <br>
+            </label>
+           
+                <a class="btn" href="forgotPassword.html">Forgot password?</a>
+            <input type="submit" id="sub-btn" class="sub-btn" name="submit" value="Sign In"><br> 
+            <a class="sign-btn" href="signup.html">Don't have an account? Click here</a><br>
         </form>
     </div>
 

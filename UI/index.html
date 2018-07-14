@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,6 +6,7 @@
     <title>My Diary</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/home.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -20,19 +21,28 @@
         </nav>
         </header>
 
-        <div class="index-container">
-            <h2>Your private, important thoughts are highly secured here</h2>
-            <h2>Used by over 1 million people from all over the world</h2>
-            <input class="index" type="button" name="register" value="Register To Start Your Free Diary Now!" onclick="window.open('signup.html', target = '_self')">
-        </div>
+        <div class="imgbox">
+                <img class="center-fit" src='./img/thought.jpg' alt="laptop and journal">
+                <input class="btn" type="button" name="profile" value="Click here to get started" onclick="window.open('signup.html', target = '_self')">
+               </div>
+
         <hr>
         
-
+        <div class="index-container">
+            <div class="card">
+                <div class="col"><img class="img-card" src="./img/ease.jpg" alt=""></div>
+                <div class="col"><p>Easy to manage, access and own... <br><br> <a href="signup.html">Click to get started</a></p></div>
+            </div>
+            <div class="card">
+                    <div class="col"><p>Stay anonymous, have no fear... <br><br> <a href="signup.html">Click to get started</a></p></div>
+                    <div class="col"><img class="img-card" src="./img/anonymous.jpg" alt=""></div>
+            </div>
+        </div>
 
         <div class="container-icons">
                 <div class="container">
                         <div class="icons-div"><input type="image" class="icons" src="./img/private.png"></div>
-                        <p class="index-p">100% private and secured</p>
+                        <p class="index-p">100% private and secured </p>
                     </div>
             <div class="container">
             <div class="icons-div"><input type="image" class="icons" src="./img/available.png"></div>
@@ -45,7 +55,8 @@
         </div>
         <div class="container">
             <div class="icons-div"><input type="image" class="icons" src="./img/write.png"></div>
-            <p class="index-p">Pour out your thoughts, it's safe</p>
+            <p class="index-p">Share your experiences</p>
+        </div>
         </div>
 
     <footer class="footer">

@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,6 +6,7 @@
     <title>Add Diary Entry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/addentry.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -20,18 +21,23 @@
         </nav>
         </header>
 
+        <div class="col">
         <div class="profile">
-            <div class="avatar"><input type="image" class="profile-img" src="./img/profile-pic.jpg"></div>
-        </div>
+                <div class="name"><h2>Hello, Sade Ahmed!</h2></div>
+                <div class="avatar"><input type="image" class="profile-img" src="./img/profile-pic.jpg"></div>
+            </div>
 
         <div class="add-entry">
-            <h4>Add an entry to your diary</h4>
-            <textarea name="Add entry" cols="40" rows="5"></textarea>
+            <h4>Share your experience</h4>
+            <label for="title" class="entry-title"><span>Title:</span>
+                <input class="input-title" type="text" name="title" value="" required/>
+                </label><br><br>
+            <textarea name="Add entry" cols="40" rows="10"></textarea>
             <input type="button" class="view-entry-btn" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
         <input type="button" class="view-entry-btn" name="submit" value="Reset" onclick="window.open('addEntry.html', target = '_self')">
         </div>
         <div class="back"><a class="back-btn" href="profilePage.html">&larr; Go back to profile page</a></div>
-
+    </div>
     <footer class="footer">
 		<div>
 		<p>Copyright MyDiary 2018</p>

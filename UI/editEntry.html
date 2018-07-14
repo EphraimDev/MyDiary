@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Modify Diary Entry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/editentry.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -26,7 +27,10 @@
 
         <div class="add-entry">
             <h4>Make changes to your diary entry</h4>
-            <textarea name="Add entry" cols="40" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</textarea>
+            <label for="title" class="entry-title"><span>Title:</span>
+                <input class="input-title" type="text" name="title" value="Lorem ipsum dolor sit amet, consectetur"/>
+                </label><br><br>
+            <textarea name="Add entry" cols="40" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</textarea><br>
             <input type="button" class="view-entry-btn" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
         <input type="button" class="view-entry-btn" name="submit" value="Reset" onclick="window.open('editEntry.html', target = '_self')">
         </div>
