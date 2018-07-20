@@ -6,6 +6,7 @@
     <title>My Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/profilepage.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -13,13 +14,14 @@
     <header>
         <nav>
             <ul class="topnav" id="nav-bar">
-                <li><a href="index.html">MyDiary</a></li>
+                <li><a href="home.html">MyDiary</a></li>
                 <li class="topnav-right"><a href="index.html">Sign Out</a></li>
                 <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
             </ul>
         </nav>
         </header>
-
+ 
+        <div class="col">
         <div class="profile">
             <div class="name"><h2>Hello, Sade Ahmed!</h2></div>
             <div class="avatar"><input type="image" class="profile-img" src="./img/profile-pic.jpg"></div>
@@ -28,20 +30,27 @@
         <div class="container-icons">
                 <div class="container">
                         <div class="icons-div"><input type="image" class="icons" src="./img/edit.png"></div>
-                        <a class="back-btn" href="editProfile.html">Edit my profile </a>
+                        <a class="open-btn" href="editProfile.html">Edit my profile </a>
                     </div>
             <div class="container">
             <div class="icons-div"><input type="image" class="icons" src="./img/add.png"></div>
-            <a class="back-btn" href="addEntry.html">Add an entry </a>
+            <a class="open-btn" href="addEntry.html">Add an entry </a>
         </div>
         <div class="container">
             <div class="icons-div"><input type="image" class="icons" src="./img/all.png"></div>
-            <a class="back-btn" href="allEntries.html">View all entries </a>
+            <a class="open-btn" href="allEntries.html">View all entries </a>
         </div>
         <div class="container">
             <div class="icons-div"><p class="icons">24</p></div>
-            <a class="back-btn">Number of entries </a>
+            <a class="num">Number of entries </a>
         </div>
+    </div>
+
+        <div class="summary">
+            <div class="update-summary">Reminder set at 8 PM daily</div>
+            <div class="update-summary right">Last updated 1 day ago</div>
+        </div>
+    </div>
 
     <footer class="footer">
 		<div>

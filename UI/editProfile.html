@@ -6,6 +6,7 @@
     <title>Edit Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/editprofile.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -19,16 +20,24 @@
             </ul>
         </nav>
         </header>
-
+ 
     <div class="main">
         <form action="#" method="post" class="form-box">
             <h1 class="header">Edit My Profile</h1><hr>
-            <input class="inp" type="tel" name="phone number" placeholder="Phone Number">
-            <input class="inp" type="text" name="country" placeholder="Country">
-            <input class="inp" type="text" name="profession" placeholder="Profession">
-            <input class="inp" type="text" name="about me" placeholder="About Me">
-            <label class="picture">Set daily reminder: </label><input class="reminder" type="time" name="reminder" placeholder="Reminder"><br>
-            <label class="picture">Set profile picture: </label><input class="inp-pic" type="file" name="profile picture"><br>
+            <label class="form" for="number"><span>Phone Number</span>
+            <input class="inp" type="tel" name="phone number">
+        </label>
+        <label class="form" for="country"><span>Country</span>
+            <input class="inp" type="text" name="country">
+        </label>
+        <label class="form" for="profession"><span>Profession</span>
+            <input class="inp" type="text" name="profession">
+        </label>
+        <label for="address" class="form"><span>Address</span>
+            <input class="inp" type="text" name="address">
+        </label>
+            <label class="picture">Set daily reminder: <input class="reminder" type="time" name="reminder" placeholder="Reminder"></label><br>
+            <label class="picture">Set profile picture: <input class="inp-pic" type="file" name="profile picture"></label><br>
             <input type="button" class="sub-btn-profile" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
             <input type="button" class="sub-btn-profile" name="submit" value="Cancel" onclick="window.open('profilePage.html', target = '_self')"><br>
         </form>

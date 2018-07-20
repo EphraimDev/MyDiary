@@ -6,6 +6,7 @@
     <title>All Entries</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/viewall.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
@@ -32,18 +33,19 @@
               <th>Date Entered</th>
             <th>Time Entered</th>
             <th>Entry</th>
+            <th>Action</th>
           </tr>
           <tr>
               <td>08-07-2018</td>
             <td>07:55 AM</td>
             <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
-            <td class="no-color"><input type="button" class="view-btn" name="submit" value="View" onclick="window.open('viewEntry.html', target = '_self')"></td>
+            <td><Span><a class="view-btn" href="viewEntry.html">View</a><a class="view-btn" href="editEntry.html">Edit</a></Span></td>
           </tr>
           <tr>
               <td>09-07-2018</td>
             <td>07:50 AM</td>
             <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
-            <td class="no-color"><input type="button" class="view-btn" name="submit" value="View" onclick="window.open('viewEntry.html', target = '_self')"></td>
+            <td><Span><a class="view-btn" href="viewEntry.html">View</a></Span><span><a class="view-btn" href="editEntry.html">Edit</a></span></td>
           </tr>
         </table>
 

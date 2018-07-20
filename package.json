@@ -5,7 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**/**.js --exit",
+    "clean": "del -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build:dev": "npm run clean && npm run build-babel",
+    "build": "babel server --out-dir dist/ --ignore server/test",
+    "start:dev": "npm run build && node ./build/app.js",
     "lint:js": "eslint --fix server/**/*.js",
+    "db": "babel-node server/model/index.js",
     "start": "nodemon --exec babel-node --presets env server/app.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
@@ -20,15 +26,22 @@
   },
   "homepage": "https://github.com/EphraimDev/MyDiary#readme",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "cross-env": "^5.2.0",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
     "morgan": "^1.9.0",
-    "nyc": "^12.0.2"
+    "nodemailer": "^4.6.7",
+    "npm-run-all": "^4.1.3",
+    "nyc": "^12.0.2",
+    "pg": "^7.4.3",
+    "random-string": "^0.2.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-babel": "^1.2.3",

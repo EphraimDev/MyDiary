@@ -1,0 +1,1367 @@
+.imgbox {
+    display: grid;
+    height: 100%;
+    width: 100%
+   }
+   
+   .center-fit {
+       width: 100%;
+       max-width: 100%;
+    max-height: 1000px;
+   }
+
+   .imgbox .btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: skyblue;
+    color: white;
+    font-size: 2em;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.imgbox .btn:hover {
+    background-color: deepskyblue;
+}
+
+.index-container {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 3%
+}
+
+.index-container .card {
+    width: 90%;
+    float: left;
+    margin: 0 5%
+}
+
+.index-container .card .col {
+    width: 40%;
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%
+}
+
+.index-container .card .col .img-card {
+    width: 100%;
+    height: 450px;
+}
+
+.index-container .card .col p {
+    width: 100%;
+    float: left;
+    font-size: 2em;
+    margin-top: 30%;
+}
+
+a {
+    color: black;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+a:hover {
+    color: deepskyblue
+}
+
+.container-icons {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.container-icons .container {
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.container-icons .container .icons-div .icons {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 25%;
+    border: 1px solid skyblue ;
+    cursor: default;
+}
+
+.index-p {
+    font-size: 1em
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 1em;
+        margin-top: 45%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 12%
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 50%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .index-p {
+        font-size: 0.8em
+    }
+}
+
+/* iPhone 4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 1.4em;
+        margin-top: 30%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 12%
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 60%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .index-p {
+        font-size: 1em
+    }
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* iPhone 5 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 1.3em;
+        margin-top: 30%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 12%
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 60%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .index-p {
+        font-size: 1em
+    }
+}
+
+/* iPhone 6+ (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* iPhone 6+ (portrait) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* Samsung Galaxy S3 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* Samsung Galaxy S3 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 1.3em;
+        margin-top: 30%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 12%
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 60%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .index-p {
+        font-size: 1em
+    }
+}
+
+/* Samsung Galaxy S4 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* Samsung Galaxy S4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* Samsung Galaxy S5 (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .imgbox .btn {
+        top: 30%;
+        color: white;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container-icons {
+        margin-bottom: 80%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70%;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 15px
+    }
+}
+
+/* Samsung Galaxy S5 (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+    .imgbox .btn {
+        top: 28%;
+        color: white;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 1em;
+        margin-top: 45%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .container-icons {
+        margin-bottom: 90%;
+    }
+
+    .container-icons .container {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 12%
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 50%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .index-p {
+        font-size: 0.8em
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .imgbox .btn {
+        top: 35%;
+        color: white;
+        font-size: 25px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .container-icons {
+        margin-bottom: 30%;
+    }
+
+    .container-icons .container {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 20px;
+        text-align: center
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .imgbox .btn {
+        top: 35%;
+        color: white;
+        font-size: 25px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .container-icons {
+        margin-bottom: 30%;
+    }
+
+    .container-icons .container {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 20px;
+        text-align: center
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .imgbox .btn {
+        top: 35%;
+        color: white;
+        font-size: 25px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .container-icons {
+        margin-bottom: 30%;
+    }
+
+    .container-icons .container {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 20px;
+        text-align: center
+    }
+}
+
+/* iPad 3 (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .imgbox .btn {
+        top: 35%;
+        color: white;
+        font-size: 25px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .container-icons {
+        margin-bottom: 30%;
+    }
+
+    .container-icons .container {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 20px;
+        text-align: center
+    }
+}
+
+/* iPad 3 (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+       .imgbox .btn {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: skyblue;
+        color: white;
+        font-size: 2em;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .imgbox .btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+    
+    .index-container .card {
+        width: 90%;
+        float: left;
+        margin: 0 5%
+    }
+    
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+    
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 450px;
+    }
+    
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 2.4em;
+        margin-top: 50%;
+    }
+    
+    a {
+        color: black;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    
+    a:hover {
+        color: deepskyblue
+    }
+    
+    .container-icons {
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    .container-icons .container {
+        width: 20%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 5%;
+        margin-bottom: 8%
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    .index-p {
+        font-size: 1.4em
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    .imgbox {
+        display: grid;
+        height: 100%;
+        width: 100%
+       }
+       
+       .center-fit {
+           width: 100%;
+           max-width: 100%;
+        max-height: 1000px;
+       }
+    
+       .imgbox .btn {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: skyblue;
+        color: white;
+        font-size: 2em;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .imgbox .btn:hover {
+        background-color: deepskyblue;
+    }
+    
+    .index-container {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+    
+    .index-container .card {
+        width: 80%;
+        float: left;
+        margin-left: 10%
+    }
+
+    .index-container .card .col {
+        width: 40%;
+        display: block;
+        float: left;
+        margin-left: 6%;
+        margin-top: 2%
+    }
+
+    .index-container .card .col .img-card {
+        width: 100%;
+        height: 450px;
+    }
+
+    .index-container .card .col p {
+        width: 100%;
+        float: left;
+        font-size: 2em;
+        margin-top: 45%;
+        margin-left: 10%
+    }
+
+    a {
+        color: black;
+        font-size: 0.6em;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: deepskyblue
+    }
+    
+    .index-p {
+        font-size: 25px
+    }
+    
+    .container-icons {
+        margin-top: 5%;
+        width: 100%;
+        margin-bottom: 0
+    }
+    
+    .container-icons .container {
+        width: 20%;
+        float: left;
+        margin-left: 4%;
+        margin-top: 5%
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    .imgbox .btn {
+        top: 35%;
+        color: white;
+        font-size: 40px;
+        padding: 6px 12px;
+    }
+
+    .index-container h2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .container-icons {
+        margin-bottom: 30%;
+    }
+
+    .container-icons .container {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
+        font-size: 30px;
+        margin-left: 30%;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .index-p {
+        font-size: 25px;
+        text-align: center
+    }
+}
+

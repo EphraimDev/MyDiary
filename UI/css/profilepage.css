@@ -1,0 +1,2314 @@
+.col {
+    margin-top: 5%;
+    height: 90%;
+    margin-bottom: 5%
+}
+
+.profile {
+    margin-top: 0;
+    width: 100%;
+}
+
+.name, .avatar {
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.name h2 {
+    text-align: center;
+    font-size: 1.5em
+}
+
+.profile .avatar .profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 40%;
+    cursor: default
+}
+
+.container-icons {
+    margin-top: 2%;
+    width: 100%;
+    height: 50%;
+}
+
+.container-icons .container {
+    width: 20%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 3%;
+}
+
+.container-icons .container .icons-div .icons {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 36px;
+    margin-left: 25%;
+    border: 1px solid skyblue ;
+    cursor: default;
+}
+
+p.icons {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.summary {
+    width: 100%;
+
+}
+
+.summary .update-summary {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    font-size: 1.4em;
+    color: deepskyblue
+}
+
+.summary .right {
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.open-btn {
+    margin-left: 12%;
+    font-size: 1.6em;
+    color: black;
+}
+
+.open-btn:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.num {
+    margin-left: 12%;
+    font-size: 1.6em;
+    color: black;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+}
+
+  /* iPhone 4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 13%;
+        height: 77%;
+        margin-bottom: 10%
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1.3em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1.3em;
+        text-align: center;
+        color: black;
+    }
+  }
+
+  /* iPhone 5 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 5 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 6 (landscape) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 6 (portrait) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 6+ (landscape) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPhone 6+ (portrait) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S3 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S3 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S5 (landscape) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Samsung Galaxy S5 (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+        margin-bottom: 10%
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        float: left;
+        margin: 10% 5%;
+    }
+
+    .container-icons .container .icons-div {
+        height: 100%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        line-height: 90px;
+        margin-left: 20%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+
+    .open-btn {
+        margin-top: 100%;
+        margin-left: 12%;
+        font-size: 1.4em;
+        color: black;
+        width: 100%;
+        text-align: left
+    }
+    
+    p.icons {
+        font-size: 0.5em;
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1.4em;
+        text-align: center;
+        color: black;
+    }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPad 3 (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 15%;
+        height: 75%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 30%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 60%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin: 10% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* iPad 3 (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin-top: 8%;
+        height: 88%;
+        margin-bottom: 4%
+    }
+
+    .profile {
+        width: 100%;
+        height: 36%;
+        margin-top: 2%
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 2.4em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        margin-left: 33%;
+        cursor: default
+    }
+    
+    .container-icons {
+        width: 100%;
+        height: 55%;
+        margin-top: 0
+    }
+    
+    .container-icons .container {
+        width: 40%;
+        height: 40%;
+        float: left;
+        margin: 2% 5%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 50px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    .summary {
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+        margin-top: 3%
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 0;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 2.4em;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 2.4em;
+        text-align: center;
+        color: black;
+    }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+      .col {
+          margin-top: 5%;
+          height: 90%;
+          margin-bottom: 5%
+      }
+    .profile {
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 2.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .container-icons {
+        margin-top: 2%;
+        width: 100%;
+    }
+    
+    .container-icons .container {
+        width: 20%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        margin-bottom: 27%
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        font-size: 1.4em;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        text-align: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1.6em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1.6em;
+        color: black;
+    }
+}
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+      .col {
+          height: 80%
+      }
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .container-icons {
+        margin-top: 2%;
+        width: 100%;
+    }
+    
+    .container-icons .container {
+        width: 20%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+    
+    .container-icons .container .icons-div .icons {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 25%;
+        border: 1px solid skyblue ;
+        cursor: default;
+    }
+    
+    p.icons {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .summary {
+        width: 100%;
+        margin-top: 23%
+    }
+    
+    .summary .update-summary {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        font-size: 1.4em;
+        color: deepskyblue
+    }
+    
+    .summary .right {
+        float: right;
+        text-align: right;
+        margin-right: 5%;
+    }
+    
+    .open-btn {
+        margin-left: 12%;
+        font-size: 1.6em;
+        color: black;
+    }
+    
+    .open-btn:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    .num {
+        margin-left: 12%;
+        font-size: 1.6em;
+        color: black;
+    }
+  }
+
+
+ 

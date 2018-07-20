@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header, nav {
@@ -44,7 +46,7 @@ ul.topnav li {
     list-style: none;
     float: left;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 35%;
     font-family: "Great Vibes", cursive
     
 }
@@ -62,335 +64,19 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     color: white;
+    cursor: pointer;
 }
 
 ul.topnav li a:hover {
-    background-color: skyblue;
+    background-color: deepskyblue;
 }
 
 ul.topnav li.dropdown-icon {
     display: none;
 }
 
-.add-entry {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 1%;
-}
-
-.add-entry h4 {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-textarea {
-    width: 80%;
-    margin-left: 10%;
-    font-size: 30px;
-}
-
-.main-entry {
-    margin-top: 7%;
-    width: 70%;
-    margin-left: 15%;
-    border-radius: 10px
-    
-}
-
-hr {
-    margin: 0
-}
-
-.main-entry .card {
-    width: 100%;
-    border: 2px solid #dcdcdc;
-    border-radius: 10px;
-}
-
-.main-entry .card h4 {
-    text-align: center;
-    background-color: #dcdcdc;
-    font-size: 40px;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.main-entry .card p {
-    font-size: xx-large;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px
-}
-
-.view-entry-btn {
-    text-align: center;
-    width: 30%;
-    border: none;
-    cursor: pointer;
-    padding: 0.6rem 1.2rem;
-    border-radius: 10px;
-    margin: 5px;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    background-color: skyblue;
-    color: white;
-    font-size: 30px;
-}
-
-.back-view-entry{
-    margin-bottom: 7%;
-}
-
-/* For forms */
-
-.main {
-    width: 60%;
-    margin: auto;
-    margin-top: 7%;
-    margin-bottom: 7%;
-}
-
-.header {
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.form-box {
-    padding: 10px 25px 20px 25px;
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-.main .form-box p {
-    font-size: 30px;
-    text-align: center
-}
-
-.picture {
-    font-size: 25px;
-    width: 20%;
-    padding: 10px;
-    margin: 10px 0 10px 20px;
-    border: none;
-}
-
-.inp-pic {
-    font-size: 25px;
-    width: 50%;
-    padding: 10px;
-    margin: 10px 0 10px 20px;
-}
-
-.inp {
-    font-size: 30px;
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0 10px 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 2px 1px #444;
-}
-
-.inp:focus {
-    outline: none;
-    box-shadow: 0 0 5px 1px #43a286;
-    color: black;
-    font-weight: bold;
-}
-
-.inp-row {
-    margin: 5px 0 5px 0;
-}
-
-.sub-btn {
-    text-align: center;
-    width: 40%;
-    border: none;
-    cursor: pointer;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    margin: 5px;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    background-color: skyblue;
-    color: white;
-    font-size: 30px;
-}
-
-.sub-btn-profile {
-    text-align: center;
-    width: 30%;
-    border: none;
-    cursor: pointer;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    margin: 5px;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    background-color: skyblue;
-    color: white;
-    font-size: 30px;
-}
-
-.sub-btn:focus {
-    outline: none;
-    color: yellowgreen;
-}
-
-.btn {
-    margin-left: 8%;
-    font-size: 30px;
-    color: black
-}
-
-.sign-btn {
-    width: 100%;
-    font-size: 30px;
-    cursor: pointer;
-    color: black;
-    border: none;
-    margin-left: 15%;
-    margin-bottom: 10px;
-
-}
 
 
-
-/* Entries page */
-.profile {
-    margin-top: 80px;
-    width: 60%;
-    margin-left: 40%;
-}
-
-.profile .avatar .profile-img {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-}
-
-.col {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-    margin-left: 10%;
-}
-
-.col h4 {
-    margin-top: 10px;
-    font-size: 30px;
-    margin-left: 30%;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 10px;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dcdcdc;
-}
-
-table tr td.no-color {
-    background-color: white;
-    border: none;
-    border-collapse: collapse;
-}
-
-.view-btn {
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    background-color: skyblue;
-    color: white;
-    font-size: 12px;
-    margin-bottom: 5px;
-}
-
-.back {
-    margin-top: 40px;  
-}
-
-.back-btn {
-    margin-left: 12%;
-    font-size: 25px;
-    color: black;
-}
-
-.container-icons {
-    margin-top: 5%;
-    width: 100%;
-}
-
-.container-icons .container {
-    width: 20%;
-    float: left;
-    margin-left: 2%;
-}
-
-.container-icons .container .icons-div .icons {
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 30px;
-    margin-left: 25%;
-    border: 1px solid skyblue ;
-    cursor: default;
-}
-
-p.icons {
-    margin-top: 3px;
-    margin-bottom: 2px;
-}
-
-.index-container {
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 10%;
-}
-
-.index-container h2 {
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 30px;
-}
-
-.index {
-    width: 60%;
-    margin-left: 23%;
-    font-size: 30px;
-    background-color: skyblue;
-    margin-bottom: 5%;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    padding: 0.6rem 1.2rem;
-    border-radius: 10px;
-    color: white;
-}
-
-.index-p {
-    font-size: 25px
-}
 
 
 /* Footer */
@@ -398,12 +84,15 @@ footer {
     background-color: #dcdcdc;
     color: white;
     width: 100%;
+    height: 5%;
+    font-weight: bold;
     text-align: center;
     display: block;
     position: fixed;
     bottom: 0%;
     margin-left: 0;
     margin-right: 0;
+    padding: 0.3rem 0.6rem;
     font-family: "Great Vibes", cursive
     }
 
@@ -416,7 +105,7 @@ footer {
 }
 
 ul.topnav li{
-    margin-left: 50px;
+    margin-left: 5%;
     font-size: 20px;
 }
     
@@ -448,253 +137,6 @@ ul.topnav li{
         display: block;
         text-align: left;
     }
-
-    .main {
-        width: 100%;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .form-box {
-        width: 100%;
-        border: none;
-    }
-
-    .header {
-        text-align: center;
-        color: black;
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    .main .form-box p {
-        font-size: 25px;
-    }
-
-    .inp {
-        font-size: 25px;
-        width: 100%;
-        height: 60px;
-        margin: 10px 0 10px 0px;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 0 2px 1px #444;
-    }
-
-    .btn {
-        font-size: 25px;
-    }
-
-    .sub-btn {
-        width: 50%;
-        height: 8%;
-        margin-top: 20px;
-        margin-left: 40px;
-        margin-bottom: 20px;
-        font-size: 25px;
-    }
-
-    .sign-btn {
-        width: 100%;
-        font-size: 25px;
-        margin-left: 0;
-        margin-bottom: 10px;
-    
-    }
-
-    .picture {
-        font-size: 20px;
-        width: 20%;
-        margin: 0;
-        border: none;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-    
-    .inp-pic {
-        font-size: 15px;
-        height: 5%;
-        width: 100%;
-        margin: 10px;
-        padding: 0;
-    }
-
-    .sub-btn-profile {
-        width: 30%;
-        margin: 5px;
-        margin-left: 10%;
-        margin-top: 20px;
-        font-size: 15px;
-    }
-
-    .profile {
-        margin-top: 100px;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .profile .name h2{
-        font-size: 20px;
-        margin-left: 15%
-    }
-
-    .profile .avatar .profile-img {
-        height: 100px;
-        width: 100px;
-        margin-left: 20%;
-    }
-    
-    .back {
-        margin-bottom: 20%;
-        margin-top: 20px;
-    }
-
-    .back-btn {
-        margin-left: 5px;
-        font-size: 18px;
-        text-decoration: black;
-    }
-    
-    /* Entries page */
-    .col {
-        margin-left: 5%;
-        margin-top: 10px;
-    }
-    
-    .col h4 {
-        font-size: 20px;
-        margin-left: 10%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        font-size: smaller;
-    }
-    
-    .view-btn {
-        font-size: 15px;
-        margin-bottom: 5px;
-        padding: 0.3rem 0.6rem;
-    }
-
-    .main-entry {
-        margin-top: 15%;
-        width: 90%;
-        margin-left: 5%;
-        border-radius: 10px
-        
-    }
-    
-    .main-entry .card {
-        width: 100%;
-        border: 2px solid #dcdcdc;
-        border-radius: 10px;
-    }
-    
-    .main-entry .card h4 {
-        text-align: center;
-        background-color: #dcdcdc;
-        font-size: larger;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    
-    .main-entry .card p {
-        font-size: large;
-        text-align: left;
-    }
-    
-    .view-entry-btn {
-        font-size: 20px;
-    }
-    
-    .back-view-entry{
-        margin-bottom: 20%;
-    }
-
-    .add-entry {
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 1%;
-    }
-    
-    .add-entry h4 {
-        font-size: 22px;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    
-    textarea {
-        width: 80%;
-        margin-left: 10%;
-        font-size: 22px;
-    }
-
-    .container-icons {
-        margin-top: 5%;
-        width: 100%;
-    }
-    
-    .container-icons .container {
-        width: 40%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 2%;
-    }
-    
-    .container-icons .container .icons-div .icons {
-        border-radius: 50%;
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        text-align: center;
-        font-size: 30px;
-        margin-left: 25%;
-        border: 1px solid skyblue ;
-        cursor: default;
-    }
-    
-    p.icons {
-        margin-top: 3px;
-        margin-bottom: 2px;
-    }
-
-    .index-container {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 20%;
-    }
-    
-    .index-container h2 {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-        font-size: 20px;
-    }
-    
-    .index {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 15px;
-        background-color: skyblue;
-        margin-bottom: 5%;
-        text-align: left;
-        border: none;
-        cursor: pointer;
-        padding: 0.6rem 1.2rem;
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .index-p {
-        font-size: 15px
-    }
     
 }
 
@@ -704,8 +146,8 @@ ul.topnav li{
 }
 
 ul.topnav li{
-    margin-left: 120px;
-    font-size: 22px;
+    margin-left: 5%;
+    font-size: 25px;
 }
     
     ul.topnav li:not(:nth-child(1)) {
@@ -737,247 +179,7 @@ ul.topnav li{
         text-align: left;
     }
 
-    .main {
-        width: 100%;
-        margin-top: 70px;
-    }
-
-    .form-box {
-        width: 100%;
-        border: none;
-    }
-
-    .header {
-        text-align: center;
-        color: black;
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    .main .form-box p {
-        font-size: 27px;
-    }
-
-    .inp {
-        font-size: 27px;
-        width: 100%;
-        height: 80px;
-        margin: 10px 0 10px 0;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 0 2px 1px #444;
-    }
-
-    .btn {
-        font-size: 27px;
-    }
-
-    .sub-btn {
-        width: 50%;
-        height: 60px;
-        margin: 10px;
-        margin-left: 40px;
-        font-size: 27px;
-    }
-
-    .sign-btn {
-        font-size: 25px;
-        margin-left: 0;
-    }
-
-    .picture {
-        font-size: 30px;
-        width: 20%;
-        margin: 0;
-        border: none;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-    
-    .inp-pic {
-        font-size: 18px;
-        height: 5%;
-        width: 100%;
-        margin: 10px;
-        padding: 0;
-        border-radius: 5px;
-    }
-
-    .sub-btn-profile {
-        width: 35%;
-        margin: 5px;
-        margin-left: 10%;
-        margin-top: 10px;
-        font-size: 20px;
-    }
-    
-    .profile {
-        margin-top: 70px;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .profile .name h2{
-        font-size: 25px;
-        margin-left: 15%
-    }
-
-    .profile .avatar .profile-img {
-        height: 100px;
-        width: 100px;
-        margin-left: 30%;
-    }
-    
-    .back {
-        margin-bottom: 0;
-        margin-top: 20px;
-    }
-
-    .back-btn {
-        margin-left: 5px;
-        font-size: 18px;
-        text-decoration: black;
-    }
-    
-    /* Entries page */
-    .col {
-        margin-left: 5%;
-        margin-top: 10px;
-    }
-    
-    .col h4 {
-        font-size: 25px;
-        margin-left: 15%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        font-size: smaller;
-    }
-    
-    .view-btn {
-        font-size: 20px;
-        margin-bottom: 5px;
-        padding: 0.4rem 0.8rem;
-    }
-
-    .main-entry {
-        margin-top: 15%;
-        width: 90%;
-        margin-left: 5%;
-        border-radius: 10px
-        
-    }
-    
-    .main-entry .card {
-        width: 100%;
-        border: 2px solid #dcdcdc;
-        border-radius: 10px;
-    }
-    
-    .main-entry .card h4 {
-        text-align: center;
-        background-color: #dcdcdc;
-        font-size: x-large;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    
-    .main-entry .card p {
-        font-size: larger;
-        text-align: left;
-    }
-    
-    .view-entry-btn {
-        font-size: 20px;
-    }
-    
-    .back-view-entry{
-        margin-bottom: 20%;
-    }
-
-    .add-entry {
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 1%;
-    }
-    
-    .add-entry h4 {
-        font-size: 22px;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    
-    textarea {
-        width: 100%;
-        font-size: 30px;
-        margin-left: 2px;
-    }
-
-    .container-icons {
-        margin-top: 5%;
-        width: 100%;
-    }
-    
-    .container-icons .container {
-        width: 45%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 8%;
-    }
-    
-    .container-icons .container .icons-div .icons {
-        border-radius: 50%;
-        height: 70px;
-        width: 70px;
-        line-height: 7  0px;
-        text-align: center;
-        font-size: 36px;
-        margin-left: 25%;
-        border: 1px solid skyblue ;
-        cursor: default;
-    }
-    
-    p.icons {
-        margin-top: 3px;
-        margin-bottom: 2px;
-    }
-
-    .index-container {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 20%;
-    }
-    
-    .index-container h2 {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-        font-size: 23px;
-    }
-    
-    .index {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 20px;
-        background-color: skyblue;
-        margin-bottom: 5%;
-        text-align: left;
-        border: none;
-        cursor: pointer;
-        padding: 0.6rem 1.2rem;
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .index-p {
-        font-size: 20px
-    }
+   
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
@@ -986,8 +188,8 @@ ul.topnav li{
 }
 
 ul.topnav li{
-    margin-left: 200px;
-    font-size: 40px;
+    margin-left: 34%;
+    font-size: 25px;
 }
     
     ul.topnav li:not(:nth-child(1)) {
@@ -1019,256 +221,6 @@ ul.topnav li{
         text-align: left;
     }
 
-    .main {
-        width: 100%;
-        margin-top: 100px;
-    }
-
-    .form-box {
-        width: 100%;
-        border: none;
-    }
-
-    .header {
-        font-size: 50px;
-        font-weight: bold;
-    }
-
-    .main .form-box p {
-        font-size: 45px;
-    }
-
-    .inp {
-        font-size: 45px;
-        width: 100%;
-        height: 12%;
-        margin: 10px 0 10px 0;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 0 2px 1px #444;
-    }
-
-    .btn {
-        font-size: 45px;
-        margin-left: 0;
-    }
-
-    .sub-btn {
-        width: 40%;
-        height: 10%;
-        margin: 10px;
-        margin-left: 40px;
-        font-size: 45px;
-    }
-
-    .sign-btn {
-        font-size: 45px;
-        margin-left: 0;
-    }
-
-    .picture {
-        font-size: 45px;
-        width: 20%;
-        margin: 0;
-        margin-top: 10px;
-        border: none;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-
-    .reminder {
-        font-size: 40px;
-        height: 7%;
-        width: 30%;
-        margin-top: 10px;
-        padding: 0;
-    }
-
-    .inp-pic {
-        font-size: 38px;
-        height: 7%;
-        width: 70%;
-        margin: 10px;
-        padding: 0;
-    }
-
-    .sub-btn-profile {
-        width: 35%;
-        margin: 5px;
-        margin-left: 10%;
-        margin-top: 10px;
-        font-size: 35px;
-    }
-
-    .profile {
-        margin-top: 100px;
-        width: 60%;
-        margin-left: 10%;
-    }
-
-    .profile .name h2{
-        font-size: 40px;
-        margin-left: 20%;
-    }
-
-    .profile .avatar .profile-img {
-        height: 150px;
-        width: 150px;
-        margin-left: 40%;
-    }
-    
-    .back {
-        margin-bottom: 0;
-        margin-top: 20px;
-    }
-
-    .back-btn {
-        margin-left: 12%;
-        font-size: 35px;
-        color: black;
-    }
-    
-    /* Entries page */
-    .col {
-        margin-left: 1%;
-        margin-top: 10px;
-        width: 95%
-    }
-    
-    .col h4 {
-        font-size: 50px;
-        margin-left: 30%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        font-size: 25px;
-    }
-    
-    .view-btn {
-        font-size: 25px;
-        margin-bottom: 5px;
-        padding: 0.5rem 1.0rem;
-    }
-
-    .main-entry {
-        margin-top: 12%;
-        width: 90%;
-        margin-left: 5%;
-        border-radius: 10px
-        
-    }
-    
-    .main-entry .card {
-        width: 100%;
-        border: 2px solid #dcdcdc;
-        border-radius: 10px;
-    }
-    
-    .main-entry .card h4 {
-        text-align: center;
-        background-color: #dcdcdc;
-        font-size: xx-large;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    
-    .main-entry .card p {
-        font-size: xx-large;
-        text-align: left;
-    }
-    
-    .view-entry-btn {
-        font-size: 40px;
-    }
-    
-    .back-view-entry{
-        margin-bottom: 20%;
-    }
-
-    .add-entry {
-        width: 90%;
-        margin-left: 10px;
-        margin-top: 1%;
-    }
-    
-    .add-entry h4 {
-        font-size: 50px;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    
-    textarea {
-        width: 100%;
-        font-size: 30px;
-        margin-left: 2px;
-    }
-
-    .container-icons {
-        margin-top: 5%;
-        width: 100%;
-    }
-    
-    .container-icons .container {
-        width: 45%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 8%;
-    }
-    
-    .container-icons .container .icons-div .icons {
-        border-radius: 50%;
-        height: 70px;
-        width: 70px;
-        line-height: 7  0px;
-        text-align: center;
-        font-size: 36px;
-        margin-left: 25%;
-        border: 1px solid skyblue ;
-        cursor: default;
-    }
-    
-    p.icons {
-        margin-top: 3px;
-        margin-bottom: 2px;
-    }
-
-    .index-container {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 15%;
-    }
-    
-    .index-container h2 {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    .index {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 36px;
-        background-color: skyblue;
-        margin-bottom: 5%;
-        text-align: left;
-        border: none;
-        cursor: pointer;
-        padding: 0.6rem 1.2rem;
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .index-p {
-        font-size: 35px;
-        margin-top: 2%
-    }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 901px) {
@@ -1277,81 +229,9 @@ ul.topnav li{
 }
 
 ul.topnav li{
-    margin-left: 250px;
-    font-size: 60px;
+    margin-left: 35%;
+    font-size: 25px;
 }
-
-    .main {
-        width: 90%;
-    }
-
-    .form-box {
-        width: 100%;
-        border: none;
-    }
-
-    .header {
-        font-size: 80px;
-        font-weight: bold;
-    }
-
-    .main .form-box p {
-        font-size: 75px;
-    }
-
-    .inp {
-        font-size: 75px;
-        width: 100%;
-        height: 12%;
-        margin: 10px 0 30px 0;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 0 2px 1px #444;
-    }
-
-    .btn {
-        font-size: 70px;
-        margin-left: 10%;
-    }
-
-    .sub-btn {
-        width: 60%;
-        height: 11%;
-        margin: 20px;
-        margin-left: 15%;
-        font-size: 70px;
-    }
-
-    .sign-btn {
-        font-size: 60px;
-        margin-left: 0;
-    }
-    
-    .picture {
-        font-size: 55px;
-        width: 20%;
-        margin: 0;
-        margin-top: 10px;
-        border: none;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-
-    .reminder {
-        font-size: 50px;
-        height: 7%;
-        width: 30%;
-        margin-top: 10px;
-        padding: 0;
-    }
-
-    .inp-pic {
-        font-size: 50px;
-        height: 7%;
-        width: 70%;
-        margin: 10px;
-        padding: 0;
-    }
 
     .sub-btn-profile {
         width: 35%;
@@ -1359,23 +239,6 @@ ul.topnav li{
         margin-left: 10%;
         margin-top: 10px;
         font-size: 50px;
-    }
-
-    .profile {
-        margin-top: 110px;
-        width: 60%;
-        margin-left: 10%;
-    }
-
-    .profile .name h2{
-        font-size: 50px;
-        margin-left: 20%;
-    }
-
-    .profile .avatar .profile-img {
-        height: 180px;
-        width: 180px;
-        margin-left: 40%;
     }
     
     .back {
@@ -1388,147 +251,116 @@ ul.topnav li{
         font-size: 50px;
         color: black;
     }
-    
-    /* Entries page */
-    .col {
-        margin-left: 2%;
-        margin-top: 10px;
-        width: 95%
-    }
-    
-    .col h4 {
-        font-size: 60px;
-        margin-left: 35%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        font-size: 35px;
-    }
-    
-    .view-btn {
-        font-size: 40px;
-        margin-bottom: 5px;
-        padding: 0.5rem 1.0rem;
-    }
 
-    .main-entry {
-        margin-top: 12%;
-        width: 90%;
-        margin-left: 5%;
-        border-radius: 10px
-        
-    }
-    
-    .main-entry .card {
-        width: 100%;
-        border: 2px solid #dcdcdc;
-        border-radius: 10px;
-    }
-    
-    .main-entry .card h4 {
-        text-align: center;
-        background-color: #dcdcdc;
-        font-size: 70px;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    
-    .main-entry .card p {
-        font-size: 50px;
-        text-align: left;
-    }
-    
-    .view-entry-btn {
-        font-size: 50px;
-    }
-    
-    .back-view-entry{
-        margin-bottom: 20%;
-    }
 
-    .add-entry {
-        width: 90%;
-        margin-left: 10px;
-        margin-top: 1%;
-    }
-    
-    .add-entry h4 {
-        font-size: 50px;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    
-    textarea {
-        width: 100%;
-        font-size: 40px;
-        margin-left: 2px;
-        margin-top: 10px;
-    }
 
-    .container-icons {
-        margin-top: 5%;
-        width: 100%;
-    }
-    
-    .container-icons .container {
-        width: 45%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 8%;
-    }
-    
-    .container-icons .container .icons-div .icons {
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        line-height: 100px;
-        text-align: center;
-        font-size: 36px;
-        margin-left: 25%;
-        border: 1px solid skyblue ;
-        cursor: default;
-    }
-    
-    p.icons {
-        margin-top: 3px;
-        margin-bottom: 2px;
-    }
-
-    .index-container {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 15%;
-    }
-    
-    .index-container h2 {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-        font-size: 60px;
-    }
-     
-    .index {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 45px;
-        background-color: skyblue;
-        margin-bottom: 5%;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        padding: 0.6rem 1.2rem;
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .index-p {
-        font-size: 50px;
-        margin-top: 2%
-    }
 }
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+}
+
+/* iPhone 4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 5 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 6+ (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* iPhone 6+ (portrait) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* Samsung Galaxy S3 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* Samsung Galaxy S3 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  
+}
+
+/* Samsung Galaxy S4 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  
+}
+
+/* Samsung Galaxy S4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  
+}
+
+/* Samsung Galaxy S5 (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  
+}
+
+/* Samsung Galaxy S5 (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  
+}
+
+/* iPad 3 (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* iPad 3 (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  
+}
+
