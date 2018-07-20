@@ -3,7 +3,7 @@ import logger from 'morgan'; // basically collects log from the server, such as 
 import bodyParser from 'body-parser'; // extract the body portion of an incoming request
 
 import router from './route/index';
-import userRouter from './route/postgre/users';
+//import userRouter from './route/postgre/users';
 
 const app = express();
 
@@ -14,7 +14,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api/v1', router);
-app.use('/api/v1', userRouter);
+//app.use('/api/v1', userRouter);
 
 // set environment port
 const PORT = process.env.PORT || 5000;
