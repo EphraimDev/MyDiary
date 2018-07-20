@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**/**.js --exit",
-    "build": "babel server -d server/build",
+    "clean": "del -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build:dev": "npm run clean && npm run build-babel",
+    "build": "babel server --out-dir dist/ --ignore server/test",
+    "start:dev": "npm run build && node ./build/app.js",
     "lint:js": "eslint --fix server/**/*.js",
     "db": "babel-node server/model/index.js",
     "start": "nodemon --exec babel-node --presets env server/app.js",

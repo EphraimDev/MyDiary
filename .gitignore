@@ -8,3 +8,4 @@ alternative/
 alternative-tmp/
 out/
 .env
+build/
