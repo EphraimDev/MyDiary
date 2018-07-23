@@ -1,0 +1,27 @@
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="573px" height="614px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 17287 18514"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .bellStr0 {stroke:#2B2A29;stroke-width:712.064;stroke-linecap:round;stroke-linejoin:round}
+    .bellStr1 {stroke:#76BA5D;stroke-width:712.064;stroke-linecap:round;stroke-linejoin:round}
+    .bell0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g>
+  <metadata/>
+  <g id="_988206464">
+   <circle class="bell0 bellStr0" cx="10296" cy="4028" r="1170"/>
+   <path class="bell0 bellStr0" d="M11637 16276c50,145 77,301 77,463 0,784 -635,1419 -1418,1419 -783,0 -1418,-635 -1418,-1419 0,-162 27,-318 77,-463l1326 0 1356 0z"/>
+   <path class="bell0 bellStr0" d="M10285 16276c-2208,0 -4416,0 -6624,0 0,0 1122,-1647 1572,-4829 449,-3181 732,-6249 5059,-6249 4326,0 4618,3068 5067,6249 450,3182 1572,4829 1572,4829 -2215,0 -4430,0 -6646,0z"/>
+   <g>
+    <path class="bell0 bellStr1" d="M3710 7209c323,-1539 1396,-2802 2819,-3389"/>
+    <path class="bell0 bellStr1" d="M2018 7209c377,-2464 2163,-4464 4511,-5152"/>
+    <path class="bell0 bellStr1" d="M356 7209c408,-3377 2912,-6107 6173,-6853"/>
+   </g>
+  </g>
+ </g>
+</svg>

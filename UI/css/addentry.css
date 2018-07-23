@@ -1,0 +1,2272 @@
+.col {
+    margin: 5% 0;
+    height: 90%;
+    width: 100%
+}
+
+.profile {
+    margin-top: 8%;
+    width: 100%;
+}
+
+.name, .avatar {
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.name h2 {
+    text-align: center;
+    font-size: 1.5em
+}
+
+.profile .avatar .profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 40%;
+    pointer-events: none
+}
+
+.add-entry {
+    width: 100%;
+    margin: 0
+}
+
+.add-entry h4 {
+    margin: 0;
+    margin-bottom: 3%;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.add-entry .entry-title {
+    width: 100%;
+}
+
+.add-entry .entry-title span {
+    width: 30%;
+    font-size: 2em;
+    margin: 10% 0 10% 15%;
+}
+
+.add-entry .entry-title .input-title {
+    width: 60%;
+    font-size: 1.5em;
+    font-weight: normal
+}
+
+
+textarea {
+    width: 80%;
+    margin-left: 10%;
+    height: 30%;
+    font-size: 1.3em;
+}
+
+
+.view-entry-btn {
+    text-align: center;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    border-radius: 10px;
+    margin-left: 20%;
+    background-color: skyblue;
+    color: white;
+    font-size: 1.5em;
+}
+
+.view-entry-btn:hover {
+    background-color: deepskyblue
+}
+
+.back-btn{
+    margin-left: 12%;
+    font-size: 1.2em;
+    color: black;
+}
+
+.back-btn:hover {
+    color: deepskyblue
+}
+ 
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .col {
+        margin: 20% 0 0 0;
+        height: 60%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.3em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin-left: 40%;
+        pointer-events: none
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 1.2em;
+        margin: 10% 0 10% 2%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 80%;
+        font-size: 1em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+}
+
+  /* iPhone 4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin: 15% 0 0 0;
+        height: 100%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 40%;
+        pointer-events: none
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 0;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 80%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        margin-left: 10%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+
+    .back {
+        margin-bottom: 5%;
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+
+  /* iPhone 5 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 5 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6 (landscape) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6 (portrait) ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 15% 0 10% 0;
+        height: 80%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 30%;
+        pointer-events: none
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 2%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 90%;
+        margin: 0 5%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        margin-left: 10%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+
+    .back {
+        margin-bottom: 5%;
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6+ (landscape) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPhone 6+ (portrait) ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S3 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S3 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .col {
+        margin: 15% 0 10% 0;
+        height: 80%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 30%;
+        pointer-events: none
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 2%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 90%;
+        margin: 0 5%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        margin-left: 10%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+
+    .back {
+        margin-bottom: 5%;
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S4 (landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S4 (portrait) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S5 (landscape) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Samsung Galaxy S5 (portrait) ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .col {
+        margin: 15% 0 0 0;
+        height: 80%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.3em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin-left: 40%;
+        pointer-events: none
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 1.5em;
+        margin: 10% 0 10% 2%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 80%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        margin-left: 10%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+
+    .back {
+        margin-bottom: 5%;
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPad 3 (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* iPad 3 (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 2.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 35%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2.5em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2.5em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 2em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.4rem 0.8rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 2.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+}
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    .col {
+        margin: 5% 0;
+        height: 90%;
+        width: 100%
+    }
+    
+    .profile {
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .name, .avatar {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .name h2 {
+        text-align: center;
+        font-size: 1.5em
+    }
+    
+    .profile .avatar .profile-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        cursor: default
+    }
+    
+    .add-entry {
+        width: 100%;
+        margin: 0
+    }
+    
+    .add-entry h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .add-entry .entry-title {
+        width: 100%;
+    }
+    
+    .add-entry .entry-title span {
+        width: 30%;
+        font-size: 2em;
+        margin: 10% 0 10% 15%;
+    }
+    
+    .add-entry .entry-title .input-title {
+        width: 60%;
+        font-size: 1.5em;
+        font-weight: normal
+    }
+    
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    
+    .view-entry-btn {
+        text-align: center;
+        width: 20%;
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem 0.6rem;
+        border-radius: 10px;
+        margin-left: 20%;
+        background-color: skyblue;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .view-entry-btn:hover {
+        background-color: deepskyblue
+    }
+    
+    .back-btn{
+        margin-left: 12%;
+        font-size: 1.2em;
+        color: black;
+    }
+    
+    .back-btn:hover {
+        color: deepskyblue
+    }
+  }
+
+
+ 
