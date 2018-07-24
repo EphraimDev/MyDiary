@@ -11,7 +11,7 @@
     "build": "babel server --out-dir dist/ --ignore server/test",
     "start:dev": "npm run build && node ./build/app.js",
     "lint:js": "eslint --fix server/**/*.js",
-    "db": "babel-node server/model/index.js",
+    "db": "babel-node server/migrations/index.js",
     "start": "nodemon --exec babel-node --presets env server/app.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/EphraimDev/MyDiary.git"
   },
   "author": "Ephraim Aigbefo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/EphraimDev/MyDiary/issues"
   },
