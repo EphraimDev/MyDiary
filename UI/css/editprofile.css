@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
 .main {
     width: 40%;
     margin: 7% 30%;
@@ -46,7 +50,7 @@ span {
 }
 
 .main .form-box .picture {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     float: left;
     margin: 2% 4%;
@@ -105,7 +109,7 @@ span {
     .header {
         text-align: center;
         color: black;
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-weight: bold;
         margin-top: 2%
     }
@@ -132,12 +136,12 @@ span {
     span {
         display: block;
         margin: 0 0 3px 5%;
-        font-size: 1.2em; 
+        font-size: 1.4em; 
         font-weight: bold;
     }
     
     .inp {
-        font-size: 1em;
+        font-size: 1.3em;
         width: 100%;
         margin: 10px 0 10px 0;
         border: none;
@@ -146,7 +150,7 @@ span {
     }
     
     .main .form-box .picture {
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
         float: left;
         margin: 2% 2%;
@@ -168,6 +172,7 @@ span {
         margin-left: 2%;
         padding: 0.2rem 0.4rem;
         cursor: pointer;
+        margin-bottom: 5%
     }
     
     .sub-btn-profile {
@@ -177,10 +182,11 @@ span {
         cursor: pointer;
         padding: 0.6rem 1.2rem;
         border-radius: 5px;
-        margin: 4% 5%;
+        margin: 4% 7%;
         background-color: skyblue;
         color: white;
         font-size: 1em;
+        margin-bottom: 15%
     }
     
     .sub-btn:focus {
@@ -272,7 +278,7 @@ span {
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .main {
         width: 90%;
-        margin: 15% 5% 10% 5%;
+        margin: 20% 5% 10% 5%;
         height: 90%;
     }
     
@@ -1288,7 +1294,7 @@ span {
     .header {
         text-align: center;
         color: black;
-        font-size: 1.2em;
+        font-size: 1.7em;
         font-weight: bold;
         margin-top: 2%
     }
@@ -1687,8 +1693,8 @@ span {
   /* iPad 3 (portrait) ----------- */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .main {
-        width: 60%;
-        margin: 10% 20%;
+        width: 80%;
+        margin: 13% 10%;
         height: 90%;
     }
     
@@ -1777,7 +1783,8 @@ span {
     .main {
         width: 40%;
         margin: 5% 30%;
-        height: 90%
+        height: 90%;
+        margin-bottom: 10%
     }
     
     .form-box {
@@ -1787,7 +1794,7 @@ span {
     }
 
     .header {
-        font-size: 30px;
+        font-size: 2em;
         margin-top: 2%;
         text-align: center
     }
@@ -1805,12 +1812,12 @@ span {
 span {
     display: block;
     margin: 0 0 3px 5%;
-    font-size: 1.2em; 
+    font-size: 2em; 
     font-weight: bold;
 }
 
 .inp {
-    font-size: 1.2em;
+    font-size: 1.5em;
     width: 100%;
     margin: 10px 0;
     border: none;
@@ -1819,7 +1826,7 @@ span {
 }
 
 .main .form-box .picture {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     float: left;
     margin: 3% 4%;
@@ -1827,7 +1834,7 @@ span {
 }
 
 .main .form-box .reminder {
-    font-size: 1em;
+    font-size: 1.2em;
     height: 5%;
     width: 40%;
     cursor: pointer;
@@ -1835,7 +1842,7 @@ span {
 }
 
 .main .form-box .inp-pic {
-    font-size: 1em;
+    font-size: 0.7em;
     height: 5%;
     width: 65%;
     margin: 0;

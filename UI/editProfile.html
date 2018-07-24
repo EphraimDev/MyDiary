@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Edit Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/editprofile.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,23 +23,23 @@
         </header>
  
     <div class="main">
-        <form action="#" method="post" class="form-box">
+        <form action="profilePage.html" method="post" class="form-box">
             <h1 class="header">Edit My Profile</h1><hr>
             <label class="form" for="number"><span>Phone Number</span>
-            <input class="inp" type="tel" name="phone number">
+            <input class="inp" type="tel" name="phone number" required>
         </label>
         <label class="form" for="country"><span>Country</span>
-            <input class="inp" type="text" name="country">
+            <input class="inp" type="text" name="country" required>
         </label>
         <label class="form" for="profession"><span>Profession</span>
-            <input class="inp" type="text" name="profession">
+            <input class="inp" type="text" name="profession" required>
         </label>
         <label for="address" class="form"><span>Address</span>
-            <input class="inp" type="text" name="address">
+            <input class="inp" type="text" name="address" required>
         </label>
-            <label class="picture">Set daily reminder: <input class="reminder" type="time" name="reminder" placeholder="Reminder"></label><br>
+            <label class="picture">Set daily reminder: <input class="reminder" type="time" name="reminder" placeholder="Reminder" required></label><br>
             <label class="picture">Set profile picture: <input class="inp-pic" type="file" name="profile picture"></label><br>
-            <input type="button" class="sub-btn-profile" name="submit" value="Submit" onclick="window.open('profilePage.html', target = '_self')">
+            <input type="submit" class="sub-btn-profile" name="submit" value="Submit">
             <input type="button" class="sub-btn-profile" name="submit" value="Cancel" onclick="window.open('profilePage.html', target = '_self')"><br>
         </form>
     </div>

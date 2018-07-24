@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
 .col {
     margin-top: 5%;
     height: 90%;
@@ -5,7 +9,7 @@
 }
 
 .profile {
-    margin-top: 0;
+    margin-top: 10%;
     width: 100%;
 }
 
@@ -30,7 +34,7 @@
 .col h4 {
     margin-top: 10px;
     font-size: 30px;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 table {

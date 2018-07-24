@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
 .col {
     margin: 5% 0;
     height: 90%;
@@ -7,7 +11,7 @@
 .profile {
     margin-top: 8%;
     width: 100%;
-}
+} 
 
 .name, .avatar {
     margin-bottom: 2%;
@@ -16,7 +20,7 @@
 
 .name h2 {
     text-align: center;
-    font-size: 1.5em
+    font-size: 2em
 }
 
 .profile .avatar .profile-img {
@@ -47,24 +51,28 @@
 
 .add-entry .entry-title span {
     width: 30%;
-    font-size: 2em;
-    margin: 10% 0 10% 15%;
+    font-size: 2.3em;
+    margin: 10% 1% 10% 10%;
 }
 
 .add-entry .entry-title .input-title {
-    width: 60%;
+    width: 74%;
     font-size: 1.5em;
     font-weight: normal
 }
-
 
 textarea {
     width: 80%;
     margin-left: 10%;
     height: 30%;
     font-size: 1.3em;
+    margin-bottom: 5%
 }
 
+.add-entry-btn-div {
+    width: 70%;
+    margin-left: 15%
+}
 
 .view-entry-btn {
     text-align: center;
@@ -77,6 +85,7 @@ textarea {
     background-color: skyblue;
     color: white;
     font-size: 1.5em;
+    margin-bottom: 3%
 }
 
 .view-entry-btn:hover {
@@ -85,7 +94,7 @@ textarea {
 
 .back-btn{
     margin-left: 12%;
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: black;
 }
 
@@ -127,32 +136,34 @@ textarea {
     
     .add-entry {
         width: 100%;
-        margin: 0
+        margin: 0 0 10% 0
     }
     
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 1.2em;
+        font-size: 1.4em;
         width: 100%;
         text-align: center;
         
     }
     
     .add-entry .entry-title {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%
     }
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 1.2em;
+        font-size: 1.8em;
         margin: 10% 0 10% 2%;
     }
     
     .add-entry .entry-title .input-title {
-        width: 80%;
+        width: 90%;
         font-size: 1em;
-        font-weight: normal
+        font-weight: normal;
+        margin-left: 5%
     }
     
     
@@ -163,15 +174,19 @@ textarea {
         font-size: 1.3em;
     }
     
+    .add-entry-btn-div {
+        width: 100%;
+        margin-left: 0;
+    }
     
     .view-entry-btn {
         text-align: center;
-        width: 20%;
+        width: 35%;
         border: none;
         cursor: pointer;
         padding: 0.2rem 0.4rem;
         border-radius: 10px;
-        margin-left: 20%;
+        margin-left: 10%;
         background-color: skyblue;
         color: white;
         font-size: 1em;
@@ -179,6 +194,10 @@ textarea {
     
     .view-entry-btn:hover {
         background-color: deepskyblue
+    }
+
+    .back {
+        margin-bottom: 20%
     }
     
     .back-btn{
@@ -293,7 +312,7 @@ textarea {
   /* iPhone 4 (portrait) ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col {
-        margin: 15% 0 0 0;
+        margin: 18% 0 0 0;
         height: 100%;
         width: 100%
     }
@@ -310,7 +329,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 1.5em
+        font-size: 2em
     }
     
     .profile .avatar .profile-img {
@@ -329,26 +348,28 @@ textarea {
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 1.5em;
+        font-size: 2em;
         width: 100%;
         text-align: center;
         
     }
     
     .add-entry .entry-title {
-        width: 100%;
+        width: 95%;
+        margin-left: 5%
     }
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 2em;
-        margin: 10% 0 10% 0;
+        font-size: 2.3em;
+        margin: 10% 1% 10% 1%;
     }
     
     .add-entry .entry-title .input-title {
-        width: 80%;
+        width: 90%;
         font-size: 1.5em;
-        font-weight: normal
+        font-weight: normal;
+        margin-left: 5%
     }
     
     
@@ -367,10 +388,11 @@ textarea {
         cursor: pointer;
         padding: 0.2rem 0.4rem;
         border-radius: 10px;
-        margin-left: 10%;
+        margin-left: 12.5%;
         background-color: skyblue;
         color: white;
         font-size: 1.5em;
+        margin-bottom: 10%
     }
     
     .view-entry-btn:hover {
@@ -383,7 +405,7 @@ textarea {
     
     .back-btn{
         margin-left: 12%;
-        font-size: 1.2em;
+        font-size: 1.6em;
         color: black;
     }
     
@@ -689,13 +711,13 @@ textarea {
   /* iPhone 6 (portrait) ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .col {
-        margin: 15% 0 10% 0;
+        margin: 15% 10% 10% 0;
         height: 80%;
         width: 100%
     }
     
     .profile {
-        margin-top: 8%;
+        margin-top: 20%;
         width: 100%;
     }
     
@@ -706,7 +728,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 1.5em
+        font-size: 2.5em
     }
     
     .profile .avatar .profile-img {
@@ -725,7 +747,7 @@ textarea {
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 1.5em;
+        font-size: 2.2em;
         width: 100%;
         text-align: center;
         
@@ -737,7 +759,7 @@ textarea {
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 2em;
+        font-size: 2.5em;
         margin: 10% 0 10% 2%;
     }
     
@@ -764,7 +786,7 @@ textarea {
         cursor: pointer;
         padding: 0.2rem 0.4rem;
         border-radius: 10px;
-        margin-left: 10%;
+        margin-left: 12.5%;
         background-color: skyblue;
         color: white;
         font-size: 1.5em;
@@ -780,7 +802,7 @@ textarea {
     
     .back-btn{
         margin-left: 12%;
-        font-size: 1.2em;
+        font-size: 1.7em;
         color: black;
     }
     
@@ -1086,13 +1108,13 @@ textarea {
   /* Samsung Galaxy S3 (portrait) ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .col {
-        margin: 15% 0 10% 0;
+        margin: 15% 10% 10% 0;
         height: 80%;
         width: 100%
     }
     
     .profile {
-        margin-top: 8%;
+        margin-top: 20%;
         width: 100%;
     }
     
@@ -1103,7 +1125,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 1.5em
+        font-size: 2em
     }
     
     .profile .avatar .profile-img {
@@ -1122,7 +1144,7 @@ textarea {
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 1.5em;
+        font-size: 2em;
         width: 100%;
         text-align: center;
         
@@ -1134,14 +1156,14 @@ textarea {
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 2em;
+        font-size: 2.5em;
         margin: 10% 0 10% 2%;
     }
     
     .add-entry .entry-title .input-title {
         width: 90%;
         margin: 0 5%;
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: normal
     }
     
@@ -1161,7 +1183,7 @@ textarea {
         cursor: pointer;
         padding: 0.2rem 0.4rem;
         border-radius: 10px;
-        margin-left: 10%;
+        margin-left: 12.5%;
         background-color: skyblue;
         color: white;
         font-size: 1.5em;
@@ -1172,12 +1194,12 @@ textarea {
     }
 
     .back {
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
     
     .back-btn{
-        margin-left: 12%;
-        font-size: 1.2em;
+        margin-left: 8%;
+        font-size: 1.5em;
         color: black;
     }
     
@@ -1483,7 +1505,7 @@ textarea {
   /* Samsung Galaxy S5 (portrait) ----------- */
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
     .col {
-        margin: 15% 0 0 0;
+        margin: 18% 0 0 0;
         height: 80%;
         width: 100%
     }
@@ -1500,7 +1522,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 1.3em
+        font-size: 2em
     }
     
     .profile .avatar .profile-img {
@@ -1532,15 +1554,14 @@ textarea {
     .add-entry .entry-title span {
         width: 30%;
         font-size: 1.5em;
-        margin: 10% 0 10% 2%;
+        margin: 10% 2% 10% 2%;
     }
     
     .add-entry .entry-title .input-title {
-        width: 80%;
+        width: 90%;
         font-size: 1.5em;
         font-weight: normal
     }
-    
     
     textarea {
         width: 90%;
@@ -1557,10 +1578,11 @@ textarea {
         cursor: pointer;
         padding: 0.2rem 0.4rem;
         border-radius: 10px;
-        margin-left: 10%;
+        margin-left: 12.5%;
         background-color: skyblue;
         color: white;
         font-size: 1.5em;
+        margin-bottom: 8%
     }
     
     .view-entry-btn:hover {
@@ -1568,12 +1590,12 @@ textarea {
     }
 
     .back {
-        margin-bottom: 5%;
+        margin-bottom: 15%;
     }
     
     .back-btn{
-        margin-left: 12%;
-        font-size: 1em;
+        margin-left: 8%;
+        font-size: 1.5em;
         color: black;
     }
     
@@ -1977,7 +1999,7 @@ textarea {
   /* iPad 3 (portrait) ----------- */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col {
-        margin: 5% 0;
+        margin: 10% 0 5% 0 ;
         height: 90%;
         width: 100%
     }
@@ -1994,7 +2016,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 2.5em
+        font-size: 3em
     }
     
     .profile .avatar .profile-img {
@@ -2013,10 +2035,9 @@ textarea {
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 2.5em;
+        font-size: 3em;
         width: 100%;
         text-align: center;
-        
     }
     
     .add-entry .entry-title {
@@ -2025,12 +2046,12 @@ textarea {
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 2.5em;
-        margin: 10% 0 10% 15%;
+        font-size: 3em;
+        margin: 10% 1% 10% 10%;
     }
     
     .add-entry .entry-title .input-title {
-        width: 60%;
+        width: 68%;
         font-size: 2em;
         font-weight: normal
     }
@@ -2046,15 +2067,16 @@ textarea {
     
     .view-entry-btn {
         text-align: center;
-        width: 20%;
+        width: 30%;
         border: none;
         cursor: pointer;
         padding: 0.4rem 0.8rem;
         border-radius: 10px;
-        margin-left: 20%;
+        margin-left: 12.5%;
         background-color: skyblue;
         color: white;
         font-size: 2.5em;
+        margin-bottom: 5%
     }
     
     .view-entry-btn:hover {
@@ -2063,7 +2085,7 @@ textarea {
     
     .back-btn{
         margin-left: 12%;
-        font-size: 2em;
+        font-size: 2.5em;
         color: black;
     }
     
@@ -2081,7 +2103,7 @@ textarea {
     }
     
     .profile {
-        margin-top: 8%;
+        margin-top: 5%;
         width: 100%;
     }
     
@@ -2092,7 +2114,7 @@ textarea {
     
     .name h2 {
         text-align: center;
-        font-size: 1.5em
+        font-size: 2.4em
     }
     
     .profile .avatar .profile-img {
@@ -2111,7 +2133,7 @@ textarea {
     .add-entry h4 {
         margin: 0;
         margin-bottom: 3%;
-        font-size: 2em;
+        font-size: 2.2em;
         width: 100%;
         text-align: center;
         
@@ -2123,12 +2145,12 @@ textarea {
     
     .add-entry .entry-title span {
         width: 30%;
-        font-size: 2em;
-        margin: 10% 0 10% 15%;
+        font-size: 2.5em;
+        margin: 10% 0 10% 9.5%;
     }
     
     .add-entry .entry-title .input-title {
-        width: 60%;
+        width: 74%;
         font-size: 1.5em;
         font-weight: normal
     }
@@ -2138,9 +2160,14 @@ textarea {
         width: 80%;
         margin-left: 10%;
         height: 30%;
-        font-size: 1.3em;
+        font-size: 1.5em;
+        margin-bottom: 4%
     }
     
+    .add-entry-btn-div {
+        width: 70%;
+        margin-left: 15%
+    }
     
     .view-entry-btn {
         text-align: center;
@@ -2152,7 +2179,8 @@ textarea {
         margin-left: 20%;
         background-color: skyblue;
         color: white;
-        font-size: 1.5em;
+        font-size: 2em;
+        margin-bottom: 4%
     }
     
     .view-entry-btn:hover {
@@ -2161,7 +2189,7 @@ textarea {
     
     .back-btn{
         margin-left: 12%;
-        font-size: 1.2em;
+        font-size: 2em;
         color: black;
     }
     

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
 .col {
     margin-top: 5%;
     height: 90%;
@@ -128,7 +132,8 @@ p.icons {
     .container-icons {
         width: 100%;
         height: 60%;
-        margin-top: 0
+        margin-top: 0;
+        margin-bottom: 10%
     }
     
     .container-icons .container {
@@ -299,7 +304,7 @@ p.icons {
   /* iPhone 4 (portrait) ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col {
-        margin-top: 13%;
+        margin-top: 18%;
         height: 77%;
         margin-bottom: 10%
     }
@@ -369,7 +374,7 @@ p.icons {
         float: left;
         margin-left: 5%;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
         margin-bottom: 0;
         color: deepskyblue
     }
@@ -704,7 +709,7 @@ p.icons {
   /* iPhone 6 (portrait) ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .col {
-        margin-top: 15%;
+        margin-top: 18%;
         height: 75%;
     }
 
@@ -773,7 +778,7 @@ p.icons {
         float: left;
         margin-left: 5%;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
         margin-bottom: 0;
         color: deepskyblue
     }
@@ -785,7 +790,7 @@ p.icons {
     
     .open-btn {
         margin-left: 12%;
-        font-size: 1em;
+        font-size: 1.2em;
         color: black;
     }
     
@@ -1108,7 +1113,7 @@ p.icons {
   /* Samsung Galaxy S3 (portrait) ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .col {
-        margin-top: 15%;
+        margin-top: 20%;
         height: 75%;
     }
 
@@ -1512,7 +1517,7 @@ p.icons {
   /* Samsung Galaxy S5 (portrait) ----------- */
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
     .col {
-        margin-top: 15%;
+        margin-top: 20%;
         height: 75%;
         margin-bottom: 10%
     }
@@ -1544,13 +1549,15 @@ p.icons {
     .container-icons {
         width: 100%;
         height: 60%;
-        margin-top: 0
+        margin-top: 0;
+        margin-bottom: 15%
     }
     
     .container-icons .container {
         width: 40%;
         float: left;
         margin: 10% 5%;
+        height: 30%;
     }
 
     .container-icons .container .icons-div {
@@ -1559,12 +1566,14 @@ p.icons {
     
     .container-icons .container .icons-div .icons {
         border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        line-height: 90px;
+        height: 70px;
+        width: 70px;
+        line-height: 100px;
         margin-left: 20%;
         border: 1px solid skyblue ;
         cursor: default;
+        padding: 0.3rem 0.6rem;
+        float: left;
     }
 
     .open-btn {
@@ -2023,8 +2032,8 @@ p.icons {
   /* iPad 3 (portrait) ----------- */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col {
-        margin-top: 8%;
-        height: 88%;
+        margin-top: 15%;
+        height: 95%;
         margin-bottom: 4%
     }
 
@@ -2090,7 +2099,7 @@ p.icons {
         margin-left: 5%;
         text-align: center;
         font-size: 2em;
-        margin-bottom: 0;
+        margin-bottom: 10%;
         color: deepskyblue
     }
     

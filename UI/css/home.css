@@ -1,3 +1,8 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
+
 .imgbox {
     display: grid;
     height: 100%;
@@ -12,7 +17,7 @@
 
    .imgbox .btn {
     position: absolute;
-    top: 100%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1273,8 +1278,8 @@ a:hover {
     .index-container .card .col p {
         width: 100%;
         float: left;
-        font-size: 2em;
-        margin-top: 45%;
+        font-size: 2.8em;
+        margin-top: 35%;
         margin-left: 10%
     }
 
