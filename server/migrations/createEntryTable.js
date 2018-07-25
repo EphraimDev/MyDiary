@@ -4,7 +4,7 @@ const text = `DROP TABLE IF EXISTS entries CASCADE;
 CREATE TABLE entries(
     id SERIAL NOT NULL,
     entry_id TEXT PRIMARY KEY NOT NULL,
-    user_id TEXT REFERENCES users(user_id) NOT NULL,
+    user_id TEXT REFERENCES users(user_id),
     title TEXT NOT NULL,
     entry TEXT NOT NULL,
     date TEXT NOT NULL,

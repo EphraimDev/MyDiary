@@ -20,7 +20,7 @@
     "url": "git+https://github.com/EphraimDev/MyDiary.git"
   },
   "author": "Ephraim Aigbefo",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/EphraimDev/MyDiary/issues"
   },

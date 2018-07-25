@@ -9,4 +9,3 @@ alternative-tmp/
 out/
 .env
 build/
-vsccode
