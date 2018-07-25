@@ -1,15 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>All Entries/title>
+    <title>My Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/profile-page.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
-<body> 
+<body>
     <header>
         <nav>
             <ul class="topnav" id="nav-bar">
@@ -19,37 +21,37 @@
             </ul>
         </nav>
         </header>
-
+ 
+        <div class="col">
         <div class="profile">
             <div class="name"><h2>Hello, Sade Ahmed!</h2></div>
             <div class="avatar"><input type="image" class="profile-img" src="./img/profile-pic.jpg"></div>
         </div>
 
-        <div class="col">
-            <h4>All my entries</h4>
-        <table>
-          <tr>
-              <th>Date Entered</th>
-            <th>Time Entered</th>
-            <th>Entry</th>
-          </tr>
-          <tr>
-              <td>08-07-2018</td>
-            <td>07:55 AM</td>
-            <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
-            <td class="no-color"><input type="button" class="view-btn" name="submit" value="View" onclick="window.open('viewEntry.html', target = '_self')"></td>
-          </tr>
-          <tr>
-              <td>09-07-2018</td>
-            <td>07:50 AM</td>
-            <td>"Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
-            <td class="no-color"><input type="button" class="view-btn" name="submit" value="View" onclick="window.open('viewEntry.html', target = '_self')"></td>
-          </tr>
-        </table>
-
+        <div class="container-icons">
+                <div class="container">
+                        <div class="icons-div"><input type="image" class="icons" src="./img/edit.png"></div>
+                        <a class="open-btn" href="edit-profile.html">Edit my profile </a>
+                    </div>
+            <div class="container">
+            <div class="icons-div"><input type="image" class="icons" src="./img/add.png"></div>
+            <a class="open-btn" href="add-entry.html">Add an entry </a>
         </div>
+        <div class="container">
+            <div class="icons-div"><input type="image" class="icons" src="./img/all.png"></div>
+            <a class="open-btn" href="all-entries.html">View all entries </a>
+        </div>
+        <div class="container">
+            <div class="icons-div"><p class="icons">24</p></div>
+            <a class="num">Number of entries </a>
+        </div>
+    </div>
 
-        <div class="back"><a class="back-btn" href="profilePage.html">&larr; Go back to profile page</a></div>
+        <div class="summary">
+            <div class="update-summary">Reminder set at 8 PM daily</div>
+            <div class="update-summary right">Last updated 1 day ago</div>
+        </div>
+    </div>
 
     <footer class="footer">
 		<div>
