@@ -4,6 +4,10 @@
   "description": "mydairy is an online journal where users can pen down their thoughts and feelings",
   "main": "app.js",
   "scripts": {
+    "test:local": "cross-env NODE_ENV=test npm run test:setup && npm run test && npm run test:pulldown",
+    "test:setup": "psql -U andela -d mydiarytest -f server/config/tests/setup.sql",
+    "test:pulldown": "psql -U andela -d mydiarytest -f server/config/tests/pulldown.sql",
+    "test:dev": "npm run db && npm test",
     "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**/**.js --exit",
     "clean": "del -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",
@@ -12,7 +16,6 @@
     "start:dev": "npm run build && node ./build/app.js",
     "lint:js": "eslint --fix server/**/*.js",
     "db": "babel-node server/migrations/index.js",
-    "test:dev": "npm run db && npm test",
     "start": "nodemon --exec babel-node --presets env server/app.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
