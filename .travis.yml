@@ -14,13 +14,12 @@ addons:
 
 before_script:
   - psql -c 'CREATE DATABASE mydiarytest;' -U postgres
-  - psql -c postgres -d mydiarytest -f server/config/tests/setup.sql
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 
 script:
-  - npm run test 
+  - npm run test:local 
 
 after_script: 
   - npm run coverage
