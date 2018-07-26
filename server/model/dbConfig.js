@@ -1,24 +1,20 @@
 import pg from 'pg';
-import dotenv from 'dotenv';
-
-// Configure dotenv
-dotenv.config();
+import config from '../config/index';
 
 // Create configurations for database
 const dataConfig = {
-  database: 'MyDiary',
-  host: process.env.DB_HOST,
-  user: 'andela',
-  password: process.env.DB_PASSWORD,
+  database: config.db.database,
+  host: config.db.host,
+  user: config.db.username,
+  password: config.db.password,
   port: 5432,
 };
 
 const testConfig = {
-  database: process.env.TEST_DB_NAME,
-  host: process.env.TEST_DB_HOST,
-  user: process.env.TEST_DB_USER,
-  password: process.env.TEST_DB_PASS,
-  port: 5432,
+  database: config.test.db.name,
+  host: config.test.db.host,
+  user: config.test.db.username,
+  password: config.test.db.password
 };
 
 const pool = (process.env.NODE_ENV === 'test') ? new pg.Pool(testConfig) : new pg.Pool(dataConfig);
