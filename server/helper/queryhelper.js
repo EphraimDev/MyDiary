@@ -5,7 +5,8 @@ const query = {
   resetPassword: 'UPDATE users SET password = ($1), password_reset_token = ($2), password_reset_token_expiry = ($3), updated_at = ($4) WHERE email = ($5)',
   entriesText: 'SELECT * FROM entries',
   entryText : `SELECT * FROM entries WHERE entry_id = $1`,
-  updateEntry: `UPDATE entries SET title = ($1), entry = ($2), img = ($3), updated_at = ($4)`
+  updateEntry: `UPDATE entries SET title = ($1), entry = ($2), img = ($3), updated_at = ($4)`,
+  createEntry: `INSERT INTO entries(entry_id, user_id, title, entry, img, date, time, created_at) values($1,$2,$3,$4,$5,$6,$7,$8)`
 };
 
 export default query;
