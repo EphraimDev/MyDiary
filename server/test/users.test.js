@@ -86,7 +86,7 @@ describe('Tests for My Diary API endpoints', () => {
             done();
           });
       });
-
+ 
       describe('POST /api/v1/auth/signup', () => {
         it('should return an error message for wrong email format', (done) => {
           chai.request(app)
@@ -183,6 +183,22 @@ describe('Tests for My Diary API endpoints', () => {
         });
       });
 
+      describe('POST /api/v1/auth/login', () => {
+        it('should an error message for user that does not exist', (done) => {
+          chai.request(app)
+            .post('/api/v1/auth/login')
+            .send(data.noUser)
+            .end((err, res) => {
+              res.should.have.status(401);
+              res.should.be.json;
+              res.body.should.be.a('object');
+              res.body.should.have.property('message');
+              res.body.message.should.equal('User does not exist');
+              done();
+            });
+        });
+      });
+
       describe('POST /api/v1/auth/forgot-password', () => {
         it('should return error message for incorrect email', (done) => {
           chai.request(app)
@@ -194,6 +210,22 @@ describe('Tests for My Diary API endpoints', () => {
               res.body.should.be.a('object');
               res.body.should.have.property('message');
               res.body.message.should.equal('Email is incorrect');
+              done();
+            });
+        });
+      });
+
+      describe('POST /api/v1/auth/reset-password', () => {
+        it('should return error message for incorrect email', (done) => {
+          chai.request(app)
+            .post('/api/v1/auth/forgot-password')
+            .send(data.incorrectEmail)
+            .end((err, res) => {
+              res.should.have.status(401);
+              res.should.be.json;
+              res.body.should.be.a('object');
+              res.body.should.have.property('message');
+              res.body.message.should.equal('Incorrect email');
               done();
             });
         });

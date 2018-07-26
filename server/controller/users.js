@@ -67,7 +67,7 @@ class UserController {
     pool.query(queryHelper.text, [email], (err, user) => {
       if (user.rowCount < 1) {
         return res.status(401).json({
-          message: 'Email or password incorrect',
+          message: 'User does not exist',
         });
       }
 

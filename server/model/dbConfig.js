@@ -18,5 +18,5 @@ const testConfig = {
 };
 
 const pool = (process.env.NODE_ENV === 'test') ? new pg.Pool(testConfig) : new pg.Pool(dataConfig);
-
+console.log('MyDiary');
 export default pool;
