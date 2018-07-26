@@ -1,3 +1,5 @@
+process.env.NODE_ENV = test;
+
 import users from './createUserTable';
 import entries from './createEntryTable';
 import dummyUsers from '../seeders/seed-users';
