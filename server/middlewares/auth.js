@@ -17,7 +17,6 @@ class Authorization {
    * expires in 48 hours
    */
   static generateToken(user) {
-    console.log(user.user_id);
     const token = jwt.sign(
       {
         userId: user.user_Id,
@@ -26,7 +25,7 @@ class Authorization {
       },
       secret,
       {
-        expiresIn: '24h',
+        expiresIn: '1h',
       },
     );
 

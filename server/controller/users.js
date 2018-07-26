@@ -29,24 +29,26 @@ class UserController {
     const hashedPassword = bcrypt.hashSync(password, 10);
 
     pool.query(queryHelper.text, [email])
-      .then((user) => {
-        if (user.rowCount >= 1) {
+      .then((users) => {
+        if (users.rowCount >= 1) {
           return res.status(409).json({
             message: 'User exists already',
           });
         }
-        pool.query(queryHelper.createUser, [GUID, firstname, lastname, country, email, hashedPassword, img, reminder, moment.createdAt])
-          .then((user) => {
+        pool.query(queryHelper.createUser, [GUID, firstname, lastname, country, email, hashedPassword, img, reminder, moment.createdAt], (err, user) => {
+          pool.query(queryHelper.text, [email])
+          .then((user)=>{
             Mailer.createAccountMessage(email, firstname, lastname);
-            const token = Authorization.generateToken(user);
+            const token = Authorization.generateToken(user.rows[0]);
             return res.status(201).json({
               message: 'User created',
               success: true,
-              user: user.rows,
               token,
-            });
+            })
           })
-          .catch(err => next(err));
+          .catch(err => next(err)) 
+          })
+            
       })
       .catch(err => next(err));
   }
@@ -80,7 +82,7 @@ class UserController {
           return res.status(200).json({
             message: 'Login successful',
             success: true,
-            user: user.rows[0],
+            user,
             token,
           });
         })

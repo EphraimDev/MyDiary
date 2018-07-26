@@ -47,6 +47,10 @@ const data = {
     password: 'JamesAnd',
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
   },
+  wrongEmailLoginFormat: {
+    email: 'yahoo.com',
+    password: 'JamesAnd1@',
+  },
   wrongPasswordLoginFormat: {
     email: 'abgf@yahoo.com',
     password: 'JamesAnd',

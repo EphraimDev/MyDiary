@@ -8,6 +8,8 @@ const password = config.db.password;
 
 const connectionString = `postgres://${user}:${password}@${host}:5432/${database}`;
 
-const pool = (process.env.NODE_ENV === 'test') ? new Pool(config.test) : new Pool({connectionString});
+const pool = new Pool({
+  connectionString,
+});
 
 export default pool;

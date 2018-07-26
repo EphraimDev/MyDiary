@@ -1,11 +1,11 @@
+process.env.NODE_ENV = 'test';
+
 import { describe, it } from 'mocha';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import data from '../data/testData';
 
 import app from '../app';
-
-process.env.NODE_ENV = 'test';
 
 chai.should();
 
@@ -24,8 +24,6 @@ describe('Tests for My Diary API endpoints', () => {
             res.body.should.be.a('object');
             res.body.should.have.property('message');
             res.body.message.should.equal('User created');
-            res.body.should.have.property('user');
-            res.body.user.should.be.a('object');
             res.body.should.have.property('token');
             res.body.should.have.property('success');
             res.body.success.should.equal(true);

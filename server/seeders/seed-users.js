@@ -17,7 +17,7 @@ INSERT INTO users(
     'Amodu',
     'Nigeria',
     'chima@amodu.com',
-    'Password1@',
+    'password',
     'https://img.buzzfeed.com/buzzfeed-static/static/2017-03/20/16/campaign_images/buzzfeed-prod-fastlane-01/build-a-perfect-man-and-well-reveal-your-emotiona-2-24401-1490040929-0_dblbig.jpg',
     '23:30 PM',
     '2018-09-06T00:47:03.687Z'
@@ -27,7 +27,7 @@ INSERT INTO users(
     'Fred',
     'Ghana',
     'ahmed@fred.com',
-    'Password1@',
+    'password',
     'https://i.kinja-img.com/gawker-media/image/upload/s--_DBGLHVf--/c_scale,f_auto,fl_progressive,q_80,w_800/eibgv7kctah62iddzywm.jpg',
     '07:00 AM',
     '2018-07-04 22:46:19'
@@ -37,7 +37,7 @@ INSERT INTO users(
     'Jerry',
     'Nigeria',
     'ebuka@gmail.com',
-    'Password1@',
+    'password',
     'https://cdn.themodestman.com/wp-content/uploads/2018/01/fp1-mobile-4.jpg',
     '12:00 AM',
     '2018-07-05 22:46:19'
