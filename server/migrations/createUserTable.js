@@ -1,4 +1,4 @@
-import pool from '../model/config';
+import pool from '../model/dbConfig';
 
 const text = `DROP TABLE IF EXISTS users CASCADE;
 CREATE TABLE users(

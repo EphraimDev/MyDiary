@@ -1,4 +1,4 @@
-import pool from '../model/config';
+import pool from '../model/dbConfig';
 
 const text = `DELETE FROM entries CASCADE;
 INSERT INTO entries(
