@@ -7,7 +7,7 @@ import GUID from '../utils/guid';
 import moment from '../utils/moment';
 import queryHelper from '../helper/queryhelper';
 
-console.log(pool);
+//console.log(pool);
 /**
  * @exports
  * @class UserController

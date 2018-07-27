@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import config from '../config';
-import pool from '../model/config';
+import pool from '../model/dbConfig';
 
 const secret = config.jwtSecret;
 

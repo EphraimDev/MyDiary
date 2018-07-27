@@ -1,4 +1,4 @@
-import pool from '../model/config';
+import pool from '../model/dbConfig';
 import queryHelper from '../helper/queryhelper';
 import moment from '../utils/moment';
 import GUID from '../utils/guid';
