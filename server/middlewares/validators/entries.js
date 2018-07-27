@@ -12,7 +12,7 @@ class EntryValidation {
         * @param {function} next - middleware next (for error handling)
         * @return {json} res.json
         */
-    static createEntry(req, res, next) {
+    static entry(req, res, next) {
 
       const imgRegex = /^https?:\/\/(?:[a-z-]+\.)+[a-z]{2,6}(?:\/[^#?]+)+\.(?:jpe?g|gif|png)$/;
   

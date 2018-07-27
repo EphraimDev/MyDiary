@@ -11,12 +11,10 @@ const config = {
     url: process.env.DATABASE_URL,
   },
   test: {
-    db: {
       username: process.env.TEST_DB_USER,
       password: process.env.TEST_DB_PASS,
       name: process.env.TEST_DB_NAME,
       host: process.env.TEST_DB_HOST,
-    },
   },
   jwtSecret: process.env.JWT_KEY,
 

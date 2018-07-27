@@ -2,12 +2,12 @@ import bcrypt from 'bcrypt';
 import randomString from 'random-string';
 import Authorization from '../middlewares/auth';
 import Mailer from '../utils/mailer';
-import pool from '../model/config';
+import pool from '../model/dbConfig';
 import GUID from '../utils/guid';
 import moment from '../utils/moment';
 import queryHelper from '../helper/queryhelper';
 
-
+console.log(pool);
 /**
  * @exports
  * @class UserController
@@ -147,7 +147,7 @@ class UserController {
     pool.query(queryHelper.text, [email], (err, user) => {
       if (user.rowCount < 1) {
         return res.status(401).json({
-          message: 'Incorrect email',
+          message: 'Email is incorrect'
         });
       }
 

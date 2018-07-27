@@ -11,12 +11,12 @@ const dataConfig = {
 };
 
 const testConfig = {
-  database: config.test.db.name,
-  host: config.test.db.host,
-  user: config.test.db.username,
-  password: config.test.db.password
+  database: config.test.name,
+  host: config.test.host,
+  user: config.test.username,
+  password: config.test.password
 };
 
 const pool = (process.env.NODE_ENV === 'test') ? new pg.Pool(testConfig) : new pg.Pool(dataConfig);
-console.log('MyDiary');
+
 export default pool;
