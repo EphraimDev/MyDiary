@@ -12,6 +12,9 @@ env:
 addons:
   postgresql: "9.5"
 
+dist:
+  - trusty  
+
 before_script:
   - npm install
   - psql -c 'CREATE DATABASE mydiarytest;' -U postgres
