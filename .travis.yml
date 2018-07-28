@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8.11.1"
+  - "8.11.3"
 
 services:
   - postgresql
@@ -12,8 +12,7 @@ env:
 addons:
   postgresql: "9.5"
 
-dist:
-  - trusty  
+dist: trusty  
 
 before_script:
   - npm install
