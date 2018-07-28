@@ -9,11 +9,6 @@ env:
   global:
     - CC_TEST_REPORTER_ID=a132ae997f0a83be832e6ec6e8ef2bceada65c6b38794d41333b5fe80c175167
 
-addons:
-  postgresql: "9.5"
-
-dist: trusty  
-
 before_script:
   - npm install
   - psql -c 'CREATE DATABASE mydiarytest;' -U postgres
