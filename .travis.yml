@@ -17,7 +17,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - npm run test:dev 
+  - npm run test
 
 after_script: 
   - npm run coverage
