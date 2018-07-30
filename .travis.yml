@@ -11,13 +11,12 @@ env:
 
 before_script:
   - npm install
-  - psql -c 'CREATE DATABASE mydiarytest;' -U postgres
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 
 script:
-  - npm run test
+  - npm run test:dev
 
 after_script: 
   - npm run coverage
