@@ -10,13 +10,13 @@ env:
     - CC_TEST_REPORTER_ID=a132ae997f0a83be832e6ec6e8ef2bceada65c6b38794d41333b5fe80c175167
 
 before_script:
-  - npm install
+  - psql -c 'CREATE DATABASE mydiarytest;' -U postgres
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 
 script:
-  - npm run test:dev
+  - npm run test:setup
 
 after_script: 
   - npm run coverage
