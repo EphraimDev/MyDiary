@@ -11,10 +11,10 @@ const dataConfig = {
 };
 
 const testConfig = {
-  database: config.test.name,
-  host: config.test.host,
-  user: config.test.username,
-  password: config.test.password
+  database: 'mydiary_test',
+  host: 'localhost',
+  user: 'postgres',
+  password: ''
 };
 
 const pool = (process.env.NODE_ENV === 'test') ? new pg.Pool(testConfig) : new pg.Pool(dataConfig);

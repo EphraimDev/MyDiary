@@ -7,4 +7,5 @@ package-lock.json
 alternative/
 alternative-tmp/
 out/
+.env
 build/

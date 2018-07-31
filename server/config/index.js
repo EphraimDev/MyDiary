@@ -20,12 +20,12 @@ const config = {
 
   mail: {
     smtpConfig: {
-      host: process.env.MAIL_HOST,
-      port: process.env.MAIL_PORT,
+      host: 'smtp.gmail.com',
+      port: 465,
       secure: true,
       auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
+        user: 'fortestingprojects2018@gmail.com',
+        pass: 'fortests@gmail.com',
       },
     },
   },
