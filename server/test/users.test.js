@@ -1,9 +1,7 @@
-//process.env.NODE_ENV = 'test';
-//console.log(process.env.NODE_ENV);
 import { describe, it } from 'mocha';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
-import data from '../data/testData';
+import data from '../data/userData';
 
 import app from '../app';
 
@@ -12,6 +10,18 @@ chai.should();
 chai.use(chaiHttp);
 
 describe('Tests for My Diary API endpoints', () => {
+  describe('GET api/v1', () => {
+    it('should display a welcome page', (done) => {
+      chai.request(app)
+        .get('/api/v1')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('string');
+          done();
+        });
+    });
+  });
+
   describe('Handles valid endpoints for users login and sign up', () => {
     describe('POST /api/v1/auth/signup', () => {
       it('should add a new user to the database', (done) => {

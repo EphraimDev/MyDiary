@@ -7,12 +7,22 @@ import GUID from '../utils/guid';
 import moment from '../utils/moment';
 import queryHelper from '../helper/queryhelper';
 
-console.log(pool.options);
 /**
  * @exports
  * @class UserController
  */
 class UserController {
+  /**
+   * Welcome page
+   * @staticmethod
+   * @param {object} req - Request object
+   * @param {object} res - Response object
+   * @return {json} res.json
+   */
+  static welcome(req, res) {
+    return res.status(200).json('Welcome to My Diary app');
+  }
+  
   /**
    * Creates a new user
    * @staticmethod
@@ -82,7 +92,7 @@ class UserController {
           return res.status(200).json({
             message: 'Login successful',
             success: true,
-            user,
+            user: user.rows[0],
             token,
           });
         })

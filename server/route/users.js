@@ -5,6 +5,7 @@ import users from '../controller/users';
 
 const router = express.Router();
 
+router.get('/', users.welcome);
 router.post('/auth/signup', validate.validateSignUp, users.signup);
 router.post('/auth/login', validate.validateLogin, users.login);
 router.post('/auth/forgot-password', validate.validateForgotPassword, users.forgotPassword);
