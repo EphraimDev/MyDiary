@@ -4,10 +4,8 @@
   "description": "mydairy is an online journal where users can pen down their thoughts and feelings",
   "main": "app.js",
   "scripts": {
-    "test:dev": "cross-env NODE_ENV=test npm run test:setup && npm test && npm run test:pulldown",
-    "test:setup": "psql -U postgres -d mydiary_test -f server/config/tests/setup.sql",
     "test:pulldown": "psql -U postgres -d mydiary_test -f server/config/tests/pulldown.sql",
-    "test:local": "cross-env NODE_ENV=test npm run test:pulldown && npm run db && npm run test",
+    "test:dev": "cross-env NODE_ENV=test npm run test:pulldown && npm run db && npm run test",
     "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**/**.js --exit",
     "clean": "del -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",

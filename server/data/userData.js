@@ -21,13 +21,38 @@ const data = {
     email: 'abgf@yahoo.com',
     password: 'JamesAnd1@',
   },
-  noName: {
+  noFirstName: {
     user_id: GUID,
     lastname: 'Andrew',
     country: 'Nigeria',
     email: 'abgf@yahoo.com',
     password: 'JamesAnd1@',
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
+  },
+  noLastName: {
+    user_id: GUID,
+    firstname: 'Andrew',
+    country: 'Nigeria',
+    email: 'abgf@yahoo.com',
+    password: 'JamesAnd1@',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
+  },
+  noCountry: {
+    user_id: GUID,
+    firstname: 'Andrew',
+    lastname: 'Nigeria',
+    email: 'abgf@yahoo.com',
+    password: 'JamesAnd1@',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
+  },
+  noValidImg: {
+    user_id: GUID,
+    firstname: 'Andrew',
+    lastname: 'Peter',
+    country: 'Nigeria',
+    email: 'abgf@yahoo.com',
+    password: 'JamesAnd1@',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop',
   },
   wrongEmailFormat: {
     user_id: GUID,
@@ -64,9 +89,33 @@ const data = {
     password: 'Jamesnd1@',
   },
   incorrectEmail: {
-    email: 'abdgf@yahoo.com',
+    email: 'james@gmail.com',
   },
-
+  invalidEmail: {
+    email: 'adgf'
+  },
+  incorrectResetEmail: {
+    email: 'reset@gmail.com',
+    password: 'James23@#',
+    token: 'gshdgs'
+  },
+  noResetEmail: {
+    password: 'James!@12',
+    token: 'abchde'
+  },
+  noResetPassword: {
+    email: 'reset@gmail.com',
+    token: 'abdfer'
+  },
+  noToken: {
+    email: 'reset@gmail.com',
+    password: 'James23@#'
+  },
+  wrongToken: {
+    email: 'abgf@yahoo.com',
+    password: 'ResetWe12@',
+    token: 'gsgdgdty'
+  }
 };
 
 export default data;

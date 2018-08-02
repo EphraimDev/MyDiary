@@ -16,7 +16,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - npm run test:local
+  - npm run test:dev
 
 after_script:
   - psql -U postgres -d mydiary_test -f server/config/tests/pulldown.sql 

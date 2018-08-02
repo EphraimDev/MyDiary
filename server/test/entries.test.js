@@ -15,8 +15,6 @@ const user = {
   password: 'JamesAnd1@'
 };
 
-
-
 const token = auth.generateToken(user);
 
 describe('Tests for My Diary API endpoints', () => {
@@ -290,6 +288,22 @@ describe('Tests for My Diary API endpoints', () => {
             res.body.message.should.equal('Entry does not exist');
             res.body.should.have.property('success');
             res.body.success.should.equal(false);
+            done();
+          });
+      });
+    });
+
+    describe('DELETE /api/v1/entries/1', () => {
+      it('should return an error message for entry that does not exist', (done) => {
+        chai.request(app)
+          .delete('/api/v1/entries/1')
+          .set('authorization', `bearer abcd`)
+          .end((err, res) => {
+            res.should.have.status(401);
+            res.should.be.json;
+            res.body.should.be.a('object');
+            res.body.should.have.property('message');
+            res.body.message.should.equal('Token is invalid or not provided');
             done();
           });
       });

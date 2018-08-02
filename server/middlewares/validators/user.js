@@ -92,8 +92,7 @@ class UserValidation {
 
     if (typeof email !== 'string' || email.toString().trim() === '' || emailRegex.test(email) === false) {
       res.status(400).send({ message: 'Invalid email' });
-    }
-    return next();
+    } else {return next();}
   }
 
   /**
@@ -117,14 +116,11 @@ class UserValidation {
 
     if (typeof email !== 'string' || email.toString().trim() === '' || emailRegex.test(email) === false) {
       res.status(400).send({ message: 'Check the email' });
-    }
-    if (typeof password !== 'string' || password.toString().trim() === '' || passwordRegex.test(password) === false) {
+    } else if (typeof password !== 'string' || password.toString().trim() === '' || passwordRegex.test(password) === false) {
       res.status(400).send({ message: 'Password must contin minimum of eight characters, at least one uppercase letter, one lowercase letter, one number and one special character' });
-    }
-    if (!token) {
+    } else if (!token) {
       return res.status(400).send({ message: 'Type in the correct token' });
-    }
-    next();
+    } else {next();}
   }
 }
 
