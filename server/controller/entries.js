@@ -1,152 +1,147 @@
-import { date, time } from '../utils/moment';
-import entries from '../model/db';
+import pool from '../model/dbConfig';
+import queryHelper from '../helper/queryhelper';
+import moment from '../utils/moment';
 import GUID from '../utils/guid';
-
 
 /**
  * @exports
- * @class DriverController
+ * @class EntriesController
  */
 class EntriesController {
-  /**
-   * Welcome page
-   * @staticmethod
-   * @param {object} req - Request object
-   * @param {object} res - Response object
-   * @return {json} res.json
-   */
-  static welcome(req, res) {
-    return res.status(200).json('Welcome to My Diary app');
-  }
-
-  /**
-   * Creates a new entry
-   * @staticmethod
-   * @param  {object} req - Request object
-   * @param {object} res - Response object
-   * @return {json} res.json
-   */
-  static create(req, res) {
-    const { title, entry, img } = req.body;
-
-    const newEntry = {
-      entryId: GUID,
-      title,
-      entry,
-      img,
-      date,
-      time,
-    };
-
-    // adds the new entry to the database
-    entries.push(newEntry);
-
-    return res.status(201).json({
-      message: 'Entry added successfully',
-      newEntry,
-    });
-  }
-
-  /**
-   * Deletes an entry
-   *
-   * @staticmethod
-   * @param  {object} req - Request object
-   * @param {object} res - Response object
-   * @return {json} res.json
-   */
-  static deleteEntry(req, res) {
-    const { entryId } = req.params;
-
-    // check if entry exists
-    const entryFound = entries.find(entry => entry.entryId === entryId);
-
-    // If entry does not exist...
-    if (!entryFound) {
-      return res.status(404).json({
-        message: 'Entry not found',
-      });
-    }
-
-    // if entry exists...
-    entries.splice(entries.indexOf(entryFound), 1);
-    return res.status(204).json();
-  }
-
-  /**
-   * Return entry that matches entryId
-   *
+    /**
+   * Fetch all entries
    * @staticmethod
    * @param  {object} req - Request object
    * @param {object} res - Response object
    * @param {function} next - middleware next (for error handling)
    * @return {json} res.json
    */
-  static getEntry(req, res) {
-    const { entryId } = req.params;
-
-    // find entry with params entryId
-    const entryFound = entries.find(entry => entry.entryId === entryId);
-
-    // if entry does not exist...
-    if (!entryFound) {
-      return res.status(404).json({
-        message: 'Entry does not exist',
-      });
+  static getAllEntries(req, res, next) {
+      
+      pool.query(queryHelper.entriesText, [])
+      .then((entries) => {
+        return res.status(200).json({
+          entries: entries.rows,
+          message: 'All entries successfully retrieved',
+          success: true
+      })
+      }).catch(err => next(err));
+  
     }
 
-    // if diary entry exists...
-    return res.status(200).json({
-      message: 'Entry was found',
-      entryFound,
-    });
-  }
-
-  /**
-   * Get all diary entries
-   *
+    /**
+   * Fetch the details of a single entry
    * @staticmethod
    * @param  {object} req - Request object
    * @param {object} res - Response object
+   * @param {function} next - middleware next (for error handling)
    * @return {json} res.json
    */
-  static getAllEntries(_req, res) {
-    res.status(200).json({
-      message: 'Entries retrieved successfully',
-      entries,
-    });
-  }
+  static getSingleEntry(req, res) {
+    const {entryId} = req.params;
 
+    pool.query(queryHelper.entryText,[entryId], (err, entries) =>{
+        if (entries.rowCount < 1) {
+            return res.status(404).json({
+                message: 'Entry does not exist',
+                success: false
+            })
+        }
+        return res.status(200).json({
+            entry: entries.rows[0],
+            message: 'Entry successfully retrieved',
+            success: true
+        })
+    });
+  }  
+  
   /**
-   * Update an existing entry
-   *
+   * Modify diary entry
    * @staticmethod
    * @param  {object} req - Request object
    * @param {object} res - Response object
+   * @param {function} next - middleware next (for error handling)
    * @return {json} res.json
    */
-  static update(req, res) {
-    const { entryId } = req.params;
-    const { title, entry, img } = req.body;
+  static modifyDiaryEntry(req, res, next) {
+    const {entryId} = req.params;
+    const {title,entry,img} = req.body;
 
-    // find entry with params entryId
-    const entryFound = entries.find(entryItem => entryItem.entryId === entryId);
+    pool.query(queryHelper.entryText,[entryId], (err, entries) =>{
+        if (entries.rowCount < 1) {
+            return res.status(404).json({
+                message: 'Entry does not exist',
+                success: false
+            })
+        }
 
-    // if entry does not exist...
-    if (!entryFound) return res.status(404).json({ message: 'Entry does not exist' });
+        if (entries.rows[0].date !== moment.date) {
+            return res.status(403).json({
+                message: 'Entry can no longer be modified',
+                success: false
+            })
+        }
 
-    // Get index of entry
-    const index = entries.indexOf(entryFound);
+        pool.query(queryHelper.modifyEntry, [title, entry, img, moment.updatedAt, entryId])
+        .then((entry) => {
+            return res.status(201).json({
+                entry,
+                message: 'Entry successfully modified',
+                success: true
+            })
+        })
+        .catch(err => next())
+    });
+  }
+  
+  /**
+   * Create diary entry
+   * @staticmethod
+   * @param  {object} req - Request object
+   * @param {object} res - Response object
+   * @param {function} next - middleware next (for error handling)
+   * @return {json} res.json
+   */
+  static createDiaryEntry(req, res, next) {
+    const {userId,title,entry,img} = req.body;
+    const entryId = GUID;
 
-    const updatedEntry = {
-      entryId, title, entry, img, date, time,
-    };
+    pool.query(queryHelper.createEntry, [entryId, userId, title, entry, img,moment.date, moment.time, moment.createdAt])
+    .then(() => {
+        pool.query(queryHelper.entryText,[entryId], (err, entry) =>{
+        return res.status(201).json({
+            entry: entry.rows[0],
+            message: 'Entry successfully created',
+            success: true
+        })
+    })
+})
+    .catch(err => next());
+  }
 
-    // Replace entry with the updated entry
-    entries.splice(index, 1, updatedEntry);
-    return res.status(201).json({
-      message: 'Entry modified successfully',
-      updatedEntry,
+  /**
+   * Delete diary entry
+   * @staticmethod
+   * @param  {object} req - Request object
+   * @param {object} res - Response object
+   * @param {function} next - middleware next (for error handling)
+   * @return {json} res.json
+   */
+  static deleteDiaryEntry(req, res, next) {
+    const {entryId} = req.params
+
+    pool.query(queryHelper.deleteEntry,[entryId], (err, entries) =>{
+        if (entries.rowCount < 1) {
+            return res.status(404).json({
+                message: 'Entry does not exist',
+                success: false
+            })
+        }
+
+        return res.status(200).json({
+            message: 'Entry successfully deleted',
+            success: true
+        })
     });
   }
 }
